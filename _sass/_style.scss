@@ -17,6 +17,10 @@ body {
 .site-name {
     color: $accent-color;
 }
+.faded-tag {
+    color: $ultra-light-color;
+    font-weight: lighter;
+}
 .faded {
     color: $light-color;
     font-weight: lighter;
