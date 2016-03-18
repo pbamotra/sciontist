@@ -6,7 +6,7 @@ baseurl: ""
 
 # This will show up at the top of index page
 site_heading: >
-    sciontist
+    <a href="http://0x1.carrd.co">sciontist</a>
 
 email: pbamotra
 author: Pankesh Bamotra
