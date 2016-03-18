@@ -50,7 +50,7 @@ facebook_id: pbamotra
 favicon: true
 favicon_location: "images/favicon.ico"
 
-profile_picture: images/temp.jpg
+profile_picture: images/temp.png
 paginate: 5
 paginate_path: "/page/:num"
 tracking_id: UA-ZZXXZZXX-7 # GA Tracking ID
