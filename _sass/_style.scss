@@ -136,7 +136,8 @@ a:hover {
     display: block;
 }
 footer, .wrapper:after {
-    height: $footer-size;
+    height: 60px;
+    margin-top: 100px;
 }
 footer {
     div {
