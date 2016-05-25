@@ -299,3 +299,6 @@ hr {
     @media (max-width: $break-small) {
     }
 }
+body > span:nth-child(17) {
+    display: none;
+}
