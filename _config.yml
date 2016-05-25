@@ -17,7 +17,7 @@ author: Pankesh Bamotra
 # This description will show up in google search results
 # (for index page) etc.
 description: >
-    Your daily dose of machine learning
+    Your daily dose of machine learning, python and stuff.
 
 # This will what will show against &copy; in the footer
 copyright: pbamotra
@@ -43,7 +43,7 @@ comments: true
 # Note that about_footer should be true if you want
 # to see author information at the bottom of each post
 about_stub: >
-    Numbers, Poetry, and Machine Learning.
+    Python, Poetry, and Machine Learning.
 
 about_footer: true
 
