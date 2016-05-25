@@ -5,8 +5,9 @@ url: "http://sciontist.com"
 baseurl: ""
 
 # This will show up at the top of index page
+# <a href="http://0x1.carrd.co" target="_blank"><span class="faded-tag">data</span> sci<u>o</u>ntist</a>
 site_heading: >
-    <a href="http://0x1.carrd.co" target="_blank"><span class="faded-tag">data</span> sci<u>o</u>ntist</a>
+    <a href="http://0x1.carrd.co" target="_blank">sci<u>o</u>ntist</a>
 
 email: pbamotra
 author: Pankesh Bamotra
