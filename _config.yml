@@ -9,7 +9,8 @@ baseurl: ""
 site_heading: >
     <a href="http://0x1.carrd.co" target="_blank">sci<u>o</u>ntist</a>
 site_subheading: >
-    <span>Daily musings of data hungry <a href="http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html">Pythonista</a></span>
+    <span class="faded-tag" style="font-size:16px">Daily musings of data hungry 
+    <a href="http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html">Pythonista</a></span>
 email: pbamotra
 author: Pankesh Bamotra
 # This description will show up in google search results
