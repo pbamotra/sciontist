@@ -9,7 +9,7 @@ baseurl: ""
 site_heading: >
     <a href="http://pbamotra.carrd.co" target="_blank">sci<u>o</u>ntist
     <img src="https://raw.githubusercontent.com/pbamotra/host/master/icon_external.gif" style="position: absolute;"></a>
-    <p>Mouse speed <span id="mousespeed">Loading..</span></p>
+    <span>Mouse speed <span id="mousespeed">Loading..</span></span>
 site_subheading: >
     <span class="faded" style="font-size:16px">musings of a
     <a href="http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html">Pythonista</a></span>
