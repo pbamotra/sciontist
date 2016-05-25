@@ -1,11 +1,6 @@
 ---
 ---
-
-This is <span class="capsule">accent</span> a minimal, mobile friendly theme for <span class="capsule">Jekyll</span>
-
-*To see it in action, check out my [blog](http://ankitsultana.me/blog)*
-
-It features:
+Features:
 
 1. Customizable [accent](http://ankitsultana.me/accent/documentation.html)
 2. Comments with Disqus
