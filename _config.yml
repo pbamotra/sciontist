@@ -8,7 +8,7 @@ baseurl: ""
 # <a href="http://0x1.carrd.co" target="_blank"><span class="faded-tag">data</span> sci<u>o</u>ntist</a>
 site_heading: >
     <a href="http://0x1.carrd.co" target="_blank">sci<u>o</u>ntist
-    <img src="http://askthecssguy.com/images/061220_icon_external.gif" style="position: absolute;"></a>
+    <img src="https://raw.githubusercontent.com/pbamotra/host/master/icon_external.gif" style="position: absolute;"></a>
 site_subheading: >
     <span class="faded" style="font-size:16px">musings of a
     <a href="http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html">Pythonista</a></span>
