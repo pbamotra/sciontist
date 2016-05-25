@@ -19,6 +19,9 @@
 {% else %}
     <section class="intro">
         <div class="container">
+            {% if site.profile_picture %}
+                <img id="intro-img" src="{{ site.profile_picture }}">
+            {% endif %}
             <h2 class="site-name">
                 {% if site.site_heading %}
                     {{ site.site_heading }}
