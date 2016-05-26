@@ -5,7 +5,7 @@ Python has always been my favorite and discovering new libraries and its hidden 
 
 <a class="embedly-card" data-card-key="7c70f62e96804edda8009c0ee51c65ae" data-card-controls="0" href="http://www.amazon.com/Functional-Python-Programming-Steven-Lott/dp/1784396990">Functional Python Programming</a>
 
-Having finished Lott's book, I'm moving on to selectively read topics from *Introducing Python* by Bill Lubanovic on concurrency and networks, _unittest_ module. The book looks interesting and goes from basic to advanced Python programming. I will post updates on the book in a later writeup.
+Having finished Lott's book, I'm moving on to selectively read topics from *Introducing Python* by Bill Lubanovic on concurrency, networks, and _unittest_ module. The book looks interesting and goes from basic to advanced Python programming. I will post updates on the book in a later writeup.
 
 <a class="embedly-card" data-card-key="7c70f62e96804edda8009c0ee51c65ae" data-card-controls="0" href="http://www.amazon.com/Introducing-Python-Modern-Computing-Packages/dp/1449359361/ref=sr_1_1?ie=UTF8&qid=1464248025&sr=8-1&keywords=introducing+python">Introducing Python: Modern Computing in Simple Packages</a>
 
