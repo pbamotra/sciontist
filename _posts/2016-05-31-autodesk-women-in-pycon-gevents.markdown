@@ -1,5 +1,5 @@
 ---
-title: Day @ Autodesk, Pycon 2016, pycontracts, gevents
+title: Day 1 @ Autodesk, Pycon 2016, pycontracts, gevent
 ---
 I officially started working at Autodesk Inc. at their ![location pin image](images/location-pin.png) [Landmark](http://www.autodesk.com/gallery/overview) office in San Francisco today. Believe me when I say that it's among the most beautiful offices out there. The day was fun as we were walked through the company's concrete mission - Imagine, Design, Create. Before coming here, I've had just this notion of relating Autodesk to AutoCAD, but certainly it is much more than that. I would like you to see the video below.
 <div class="embedly-responsive" style="position: relative;padding-bottom: 56.2061%;height: 0;overflow: hidden;"><iframe class="embedly-embed" frameborder="0" scrolling="no" allowfullscreen src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FqcLYx6Nj9zw%3Ffeature%3Doembed&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DqcLYx6Nj9zw&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FqcLYx6Nj9zw%2Fhqdefault.jpg&args=showinfo%3D0&key=7c70f62e96804edda8009c0ee51c65ae&type=text%2Fhtml&schema=youtube" width="854" height="480" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;"></iframe></div>
