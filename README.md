@@ -1,2 +1,0 @@
-# sciontist
-The sciontist blog
