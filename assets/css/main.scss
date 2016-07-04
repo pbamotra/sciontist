@@ -64,6 +64,10 @@ ul {
     @media screen and (max-width: $br) {
         display: block;
     }
+    h1 {
+        font-size: 2em;
+        margin-bottom: 0;
+    }
     h3 {
         margin-bottom: 0;
     }
