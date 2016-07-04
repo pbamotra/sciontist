@@ -4,7 +4,7 @@ permalink: /blog/:title
 
 # My variables
 author: Pankesh Bamotra
-name: <div class="foo"> <span class="letter" data-letter="P">P</span> <span class="letter" data-letter="A">A</span> <span class="letter" data-letter="N">N</span> <span class="letter" data-letter="K">K</span> <span class="letter" data-letter="E">E</span> <span class="letter" data-letter="S">S</span> <span class="letter" data-letter="H">H</span> <span class="letter" data-letter=".">.</span> <span class="letter" data-letter="B">B</span> <span class="letter" data-letter="A">A</span> <span class="letter" data-letter="M">M</span> <span class="letter" data-letter="O">O</span> <span class="letter" data-letter="T">T</span> <span class="letter" data-letter="R">R</span> <span class="letter" data-letter="A">A</span></div>
+name: Pankesh<span style="color:#d3d3d3">.</span><span style="font-weight:bold">Bamotra</span> <span class="suffix"> @gmail.com </span>
 title: Sciontist
 keywords: data science, machine learning, life, experience, learning, cmu, carnegie mellon university
 description: Personal experiences with data that flows around humans, making sense of it, and learning it's impact.
