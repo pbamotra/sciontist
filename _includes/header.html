@@ -6,7 +6,7 @@
 <div class="sub-header">
     <ul>
         {% for item in site.data.navigation %}
-        <li>
+        <li class="{{ item.type}}">
             <a href="{{ item.url }}">{{ item.title }}</a>
         </li>
         {% endfor %}

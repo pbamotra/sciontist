@@ -1,11 +1,14 @@
 - title: home
   url: /
+  type: first
 
 # - title: about
 # url: /me
 
 - title: github
   url: https://github.com/pbamotra
+  type: others
 
 - title: <span style="font-weight:bold">résumé <i class="fa fa-arrow-down" aria-hidden="true"></i> </span>
   url: https://github.com/pbamotra/host/raw/master/pankesh-resume.pdf
+  type: others
