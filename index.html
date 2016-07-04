@@ -21,9 +21,9 @@ layout: default
         {% for post in site.posts %}
         <li>
             {% if post.type == "post" %}
-            <span class="date">{{ post.date | date: '%Y %b %d' }}</span> - <a href="{{ post.url }}">{{ post.title }}</a> &nbsp; {% if post.icon %} <img src=" {{ post.icon }} " /> {% else %} <i class="fa fa-pencil" aria-hidden="true"></i> {% endif %}
+            <span class="date">{{ post.date | date: '%Y %b %d' }}</span> - <a href="{{ post.url }}">{{ post.title }}</a>
             {% else %}
-            <span class="date">{{ post.date | date: '%Y %b %d' }}</span> - <a href="{{ post._url }}" target="_blank">{{ post.title }}</a> &nbsp; <img src="{{ post.icon }}"/> &nbsp; <i class="fa fa-external-link" aria-hidden="true"></i>
+            <span class="date">{{ post.date | date: '%Y %b %d' }}</span> - <a href="{{ post._url }}" target="_blank">{{ post.title }}</a> <i class="fa fa-external-link" aria-hidden="true"></i>
             {% endif %}
         </li>
         {% endfor %}
