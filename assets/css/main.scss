@@ -240,11 +240,9 @@ div.foo{
 .letter{
   display: inline-block;
   font-size: 2em;
-  margin: 0.2em;
   position: relative;
   color: #E9E9E9;
   transform-style: preserve-3d;
-  perspective: 200;
   z-index: 1;
 }
 .letter:before, .letter:after{
