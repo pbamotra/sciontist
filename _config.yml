@@ -1,98 +1,27 @@
-# User Settings | Edit there as per required
+# Blog settings
+permalink: /blog/:title
 
-title: Sciontist
-url: "http://sciontist.com"
-baseurl: ""
 
-# This will show up at the top of index page
-# <a href="http://0x1.carrd.co" target="_blank"><span class="faded-tag">data</span> sci<u>o</u>ntist</a>
-site_heading: >
-    <a href="http://pbamotra.carrd.co" target="_blank">sci<u>o</u>ntist
-    <img src="https://raw.githubusercontent.com/pbamotra/host/master/icon_external.gif" style="position: absolute;"></a>
-site_subheading: >
-    <span class="faded" style="font-size:16px">musings of a
-    <a href="http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html">Pythonista</a></span>
-email: pbamotra
-author: Pankesh Bamotra
-# This description will show up in google search results
-# (for index page) etc.
-description: >
-    Your daily dose of machine learning, python and stuff.
+# My variables
+name: Micah Cowell
+description: Futuristic web design
+google_verification: null
 
-# This will what will show against &copy; in the footer
-copyright: pbamotra
-# Toggle your short bio, which will displayed on your index page
-# Just toggle it and run jekyll again to see
-intro: false         # Tip: Remove the span from site_heading if intro is set to true
-# This will be displayed in your intro
-short_bio: >
-    Welcome! This is <span>accent</span>, a mobile friendly theme for Jekyll. The main feature of this
-    theme is that you can change the accent color. Refer the
-    <a class="underline different-highlight" href="http://ankitsultana.me/accent/documentation.html">
-        Documentation
-    </a>
-    to know how.
 
-permalink: /:title.html
+# File management
+include: [".htaccess"]
+exclude: ["README.md", "LICENSE"]
 
-# Comments are powered by disqus
-comments: true
 
-# keep about_stub roughly 12 words long for best results
-# This will show up at the bottom of each post
-# Note that about_footer should be true if you want
-# to see author information at the bottom of each post
-about_stub: >
-    Python, Poetry, and Machine Learning.
-
-about_footer: true
-
-twitter_username: _pbamotra_
-github_username: pbamotra
-facebook_id: pbamotra
-
-favicon: true
-favicon_location: "images/favicon.ico"
-
-profile_picture: images/temp.png
-paginate: 5
-paginate_path: "/page/:num"
-tracking_id: UA-49727693-7 # GA Tracking ID
-
-# Social Stuff | open graph and twitter cards
-og_image: "images/accent.png" # This will show in facebook thumbnails
-twitter_image: "images/accent.png" # This will show in twitter cards
-
-####################################
-####################################
-####################################
-### Build Settings | Don't Touch ###
-####################################
-####################################
-####################################
-
-markdown: kramdown
-
-gems:
-    - jekyll-paginate
-
+# Sass
 sass:
-    style: compressed
-    sass_dir: _sass
+  style: :compressed
+  sass_dir: _sass
 
-# Scopes
-defaults:
-    -
-        scope:
-            path:   ""
-            type:   "pages"
-        values:
-            layout: "page"
-    -
-        scope:
-            path:   ""
-            type:   "posts"
-        values:
-            layout: "post"
 
-exclude: [vendor] # For travis ci
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge

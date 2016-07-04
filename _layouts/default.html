@@ -1,105 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="blog, accent, {{ site.author }}, {{ site.title }}, jekyll">
-    <meta name="author" content="{{ site.author }}">
-    {% if page.url == "/404.html" %}
-        <meta http-equiv="refresh" content="5; url=/">
-    {% endif %}
-    {% if page.description %}
-        {% assign desc = page.description %}
-    {% else %}
-        {% assign desc = site.description %}
-    {% endif %}
-    {% if page.url %}
-        {% assign url = site.url | append: site.baseurl | append: page.url %}
-    {% else %}
-        {% assign url = site.url | append: site.baseurl | append: page.url %}
-    {% endif %}
-    <meta name="description" content="{{ desc }}">
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,300,500,700|Ubuntu:400,300,300italic,500,700|Montserrat' rel='stylesheet' type='text/css'>
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS" href="/feed.xml" />
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-    {% if site.favicon %}
-        <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-        <link rel="manifest" href="/manifest.json">
-        <meta name="msapplication-TileColor" content="#ffffff">
-        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-        <meta name="theme-color" content="#ffffff">
-        <!--[if IE]>
-            <link rel="icon shortcut" href="/favicon.ico">
-        <![endif]-->
-    {% endif %}
-    {% if site.twitter_username %}
-        <link rel="author" href="https://twitter.com/{{ site.twitter_username }}">
-    {% endif %}
-    <!-- Facebook Open Graph -->
-    <meta name="og:description" content="{{ desc }}">
-    <meta name="og:title" content="{{ site.title }}">
-    <meta name="og:url" content="{{ url }}">
-    <meta name="og:type" content="article">
-    {% if site.og_image %}
-        <meta name="og:image" content="{{ site.og_image }}">
-    {% endif %}
-    {% if site.facebook_id %}
-        <meta name="fb:admins" content="{{ site.facebook_id }}">
-    {% endif %}
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="{{ site.title }}">
-    <meta name="twitter:description" content="{{ desc }}">
-    <meta name="twitter:url" content="{{ url }}">
-    {% if site.twitter_image %}
-        <meta name="twitter:image" content="{{ site.twitter_image }}">
-    {% else %}
-        <meta name="twitter:image" content="{{ site.profile_picture }}">
-    {% endif %}
-</head>
-<body>
-    <div class="wrapper">
-        <div class="main">
-            <nav class="navbar">
-                <a href="{{ site.baseurl }}/">
-                    <span class="alignable pull-left back-outer">
-                        <span class="alignable pull-left back-inner">
-                        </span>
-                    </span>
-                </a>
-            </nav>
-            {{ content }}
-        </div>
-    </div>
-    {% include footer.html %}
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery.1.10.2.min.js"><\/script>')</script>
-    <script src="js/rrssb.min.js"></script>
     {% if page.title %}
-        <script src="js/anchor.min.js"></script>
-        <script>
-        anchors.options.placement = 'right'
-        anchors.options.class = 'hide'
-        anchors.add()
-        anchors.remove('.post-title')
-        </script>
+        <title>{{ page.title }}</title>
+    {% else %}
+        <title>{{ site.name }}</title>
     {% endif %}
-    {% if site.tracking_id %}
-        {% include analytics.html %}
+
+    <meta name="description" content="{{ site.description }}">
+
+    {% if site.google_verification %}
+        <meta name="google-site-verification" content="{{ site.google_verify }}">
     {% endif %}
+
+    <link rel="icon" href="/assets/img/favicon.png">
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        {{ content }}
+    </div>
+
 </body>
+
+</html>
