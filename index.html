@@ -24,7 +24,7 @@ layout: default
           url: url,
           method: 'GET',
       }).done(function(results) {
-          results = results.slice(6);
+          results = results.slice(0, 6);
           $.each(results, function(index, result) {
              $.ajax({
                 url: item_url + result + '.json',
