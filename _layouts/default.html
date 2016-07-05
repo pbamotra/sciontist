@@ -17,8 +17,14 @@
     {% if site.google_verification %}
     <meta name="google-site-verification" content="{{ site.google_verification }}" />
     {% endif %}
-
-    <link rel="icon" href="/assets/img/favicon.png">
+    {% assign mod = paginator.total_posts | modulo:2 %}
+    {% if mod == site.mod_switch %}
+    <link rel="shortcut icon" href="/assets/img/favicon_scottie.ico" type="image/x-icon">
+    <link rel="icon" href="/assets/img/favicon_scottie.ico" type="image/x-icon">
+    {% else %}
+    <link rel="shortcut icon" href="/assets/img/favicon_aristotle.ico" type="image/x-icon">
+    <link rel="icon" href="/assets/img/favicon_aristotle.ico" type="image/x-icon">
+    {% endif %}
     <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
     <script src="https://use.fontawesome.com/81b65cc738.js"></script>
