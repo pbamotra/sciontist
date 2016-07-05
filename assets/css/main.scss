@@ -101,10 +101,13 @@ ul {
 
 .footer {
     align-items: baseline;
-    bottom: 0px;
+    bottom: 1em;
     position: fixed;
     @media screen and (max-width: $br) {
         display: block;
+    }
+    a {
+        text-decoration: none;
     }
     h1 {
         font-size: 2em;
