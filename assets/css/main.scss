@@ -101,6 +101,8 @@ ul {
 
 .footer {
     align-items: baseline;
+    bottom: 0px;
+    position: fixed;
     @media screen and (max-width: $br) {
         display: block;
     }
