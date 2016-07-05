@@ -21,11 +21,11 @@ layout: default
         {% for post in site.posts %}
         <li>
             {% if post.type == "post" %}
-            <span class="date">{{ post.date | date: '%Y %b %d' }}</span> <br/> <a href="{{ post.url }}" style="line-height:1">{{ post.title }}</a>
+            <span class="date">{{ post.date | date: '%Y %b %d' }}</span> <br/> <a href="{{ post.url }}" style="line-height:1.5">{{ post.title }}</a>
             {% else %}
             {% for p in post._url %}
             {% if forloop.index == 1 %}
-            <span class="date">{{ post.date | date: '%Y %b %d' }}</span> <br/> <a href="{{ p.uri }}" target="_blank" style="line-height:1">{{ p.title }}</a> <i class="fa fa-external-link" aria-hidden="true"></i>
+            <span class="date">{{ post.date | date: '%Y %b %d' }}</span> <br/> <a href="{{ p.uri }}" target="_blank" style="line-height:1.5">{{ p.title }}</a> <i class="fa fa-external-link" aria-hidden="true"></i>
             {% else %}
             <span class="date">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <br/> <a href="{{ p.uri }}" target="_blank" style="line-height:1">{{ p.title }}</a> <i class="fa fa-external-link" aria-hidden="true"></i>
             {% endif %}
