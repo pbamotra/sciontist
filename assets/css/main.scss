@@ -79,7 +79,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     @media screen and (max-width: $br) {
         display: block;
     }
@@ -275,8 +275,7 @@ ul.share-buttons li{
 
 #logo {
     display: inline-block;
-    margin-top: -20px;
-    margin-left: 2em;
+    margin-bottom: 10px;
 }
 
 #lname {
