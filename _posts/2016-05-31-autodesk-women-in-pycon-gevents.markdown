@@ -9,9 +9,9 @@ I officially started working at Autodesk Inc. at their <i class="fa fa-map-marke
 
 Last night, I discovered that the Pycon 2016 [videos](https://www.youtube.com/watch?v=f0zlRQ1qgIk) are up on Youtube and has some really exciting talks. I personally liked the following talks: -
 
-1. Kalman Filters for non-rocket science by Elizabeth Ramirez
-2. Python Epiphanies by Stuart Williams (Highly recommended for budding Pythonistas)
-3. A tale of concurrency through creativity in Python: Into how gevent works by Kavya Joshi. I have a little exposure to event loop based programming through node.js and having [*gevent*](http://www.gevent.org/contents.html) in Python = Mind blown! Make sure to check this out.  
+- Kalman Filters for non-rocket science by Elizabeth Ramirez
+- Python Epiphanies by Stuart Williams (Highly recommended for budding Pythonistas)
+- A tale of concurrency through creativity in Python: Into how gevent works by Kavya Joshi. I have a little exposure to event loop based programming through node.js and having [*gevent*](http://www.gevent.org/contents.html) in Python = Mind blown! Make sure to check this out.  
 
 I stumbled upon the [pycontracts](http://censi.mit.edu/pub/research/201410-pycontracts/201410-pycontracts.pdf) library too. Since Python is dynamic when it comes to *typing*, pycontracts lets you enforce *contracts* on the function arguments and the return values. Result - Clean and robust code.
 
