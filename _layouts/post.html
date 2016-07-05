@@ -9,7 +9,7 @@ layout: default
     <p class="post__meta">
         Tags:
         {% for tag in page.tag %}
-            {{tag}} &nbsp;
+            <a href="/blog/tags/{{tag}}">{{tag}}</a>
         {% endfor %}
     </p>
     <div class="post__content"?>
