@@ -99,6 +99,29 @@ ul {
     }
 }
 
+.sub-header-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    position: fixed;
+    @media screen and (max-width: $br) {
+        display: block;
+    }
+    h1 {
+        font-size: 2em;
+        margin-bottom: 0;
+    }
+    ul {
+        margin-top: 10px;
+        li {
+            display: inline;
+            padding: 0;
+            .others {
+            padding-left: 5px;
+            }
+        }
+    }
+}
 
 .portfolio {
     padding-bottom: 30px;
