@@ -72,9 +72,6 @@ ul {
             color:#d3d3d3;
             vertical-align: super;
         }
-        &:hover {
-            color:#9C0000;
-        }
     }
 }
 
@@ -274,4 +271,8 @@ ul.share-buttons li{
     display: inline-block;
     position: relative;
     top: -10px;
+}
+
+#lname:hover {
+    color:#9C0000;
 }

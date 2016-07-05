@@ -4,7 +4,7 @@ permalink: /blog/:title
 
 # My variables
 author: Pankesh Bamotra
-name: Pankesh<span style="color:#d3d3d3">.</span><span style="font-weight:bold">Bamotra</span><a href="mailto:pankesh.bamotra@gmail.com" style="text-decoration:none"><span class="suffix"> @gmail.com <i class="fa fa-envelope-o" aria-hidden="true"></i></span></a>
+name: Pankesh<span style="color:#d3d3d3">.</span><span id="lname" style="font-weight:bold">Bamotra</span><a href="mailto:pankesh.bamotra@gmail.com" style="text-decoration:none"><span class="suffix"> @gmail.com <i class="fa fa-envelope-o" aria-hidden="true"></i></span></a>
 logo: /assets/img/scottie.png
 title: Sciontist
 keywords: data science, machine learning, life, experience, learning, cmu, carnegie mellon university
