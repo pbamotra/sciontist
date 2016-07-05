@@ -70,6 +70,7 @@ ul {
         .suffix {
             font-size: 0.6em;
             color:#d3d3d3;
+            vertical-align: super;
         }
     }
 }
@@ -229,7 +230,3 @@ ul {
         }
     }
 }
-
-.supsub {position: absolute}
-.subscript {color: green; display:block; position:relative; left:2px; top: -5px}
-.superscript {color: red; display:block; position:relative; left:2px; top: -5px}
