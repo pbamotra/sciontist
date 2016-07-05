@@ -273,9 +273,14 @@ ul.share-buttons li{
     top: -10px;
 }
 
+.logo {
+    display: none;
+}
+
 .lname:hover {
-    color:#9C0000;
-    &.logo {
-        display:inline-block;
-    }
+    color: #9C0000;
+}
+
+.lname:hover~.logo{
+    display:inline-block;
 }
