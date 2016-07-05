@@ -16,6 +16,28 @@ layout: default
 </div>
 -->
 <div class="blog">
+    <h1>HN new stories</h1>
+    <script type="text/javascript">
+    var url = "https://hacker-news.firebaseio.com/v0/topstories.json";
+    var item_url = "https://hacker-news.firebaseio.com/v0/item/";
+        $.ajax({
+          url: url,
+          method: 'GET',
+      }).done(function(results) {
+          $.each(results, function(index, result) {
+             $.ajax({
+                url: item_url + result + '.json',
+                method: 'GET',
+              }).done(function(result) {
+                  console.log(result.title);
+              }).fail(function(err) {
+                throw err;
+              });
+          });
+        }).fail(function(err) {
+          throw err;
+        });
+    </script>
     <h1>Collections:</h1>
     <ul>
         {% for post in paginator.posts %}
