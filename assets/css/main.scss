@@ -85,6 +85,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    padding-bottom: 50px;
     @media screen and (max-width: $br) {
         display: block;
     }
@@ -106,7 +107,6 @@ ul {
 
 .footer {
     align-items: baseline;
-    padding-bottom: 50px;
     @media screen and (max-width: $br) {
         display: block;
     }
