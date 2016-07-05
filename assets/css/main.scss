@@ -99,12 +99,8 @@ ul {
     }
 }
 
-.sub-header-2 {
-    display: flex;
-    justify-content: space-between;
+.footer {
     align-items: baseline;
-    bottom: 0px;
-    position: fixed;
     @media screen and (max-width: $br) {
         display: block;
     }
