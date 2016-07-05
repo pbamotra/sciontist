@@ -30,7 +30,7 @@ layout: default
                 url: item_url + result + '.json',
                 method: 'GET',
               }).done(function(result) {
-                  document.write('<a href="' + result.url + '">result.title</a><br/>');
+                  // document.write('<a href="' + result.url + '">result.title</a><br/>');
               }).fail(function(err) {
                 throw err;
               });
