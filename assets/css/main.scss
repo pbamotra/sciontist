@@ -230,3 +230,7 @@ ul {
         }
     }
 }
+
+.supsub {position: absolute}
+.subscript {color: green; display:block; position:relative; left:2px; top: -5px}
+.superscript {color: red; display:block; position:relative; left:2px; top: -5px}
