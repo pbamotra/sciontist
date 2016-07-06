@@ -11,7 +11,7 @@ title: Sciontist
 keywords: data science, machine learning, life, experience, learning, cmu, carnegie mellon university
 description: Personal experiences with machines, life, and nature.
 google_verification: y2YP_ez9dBS6EBpQHBdl10cRARPTHz-fAhbh74HFn8E
-mod_switch: 1
+mod_switch: 0
 url: http://sciontist.com
 timezone: America/New_York
 
@@ -58,9 +58,13 @@ ghostday: Fri
 pursuits:
   - title: Probabilistic Models of Cognition
     uri: https://probmods.org/index.html
+    statusicon: fa-star-o
   - title: STAT 365/665 Data Mining and Machine Learning
     uri: http://euler.stat.yale.edu/~tba3/stat665/
+    statusicon: fa-star-o
   - title: CSE 6389 Advanced Topics in ML and Data Mining
     uri: http://ranger.uta.edu/~heng/CSE6389.html
+    statusicon: fa-star-o
   - title: BerkeleyX CS105x Introduction to Apache Spark
     uri: https://courses.edx.org/courses/course-v1:BerkeleyX+CS105x+1T2016
+    statusicon: fa-star-half-o

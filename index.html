@@ -61,7 +61,7 @@ layout: default
     <h1><i class="fa fa-bullseye" aria-hidden="true"></i>n Pursuit:</h1>
     <ul id="pursuit">
         {% for pursuit in site.pursuits %}
-            <li><a href="{{pursuit.uri}}" class="no-dec" target="_blank">{{pursuit.title}}</a></li>
+            <li><a href="{{pursuit.uri}}" class="no-dec" target="_blank">{{pursuit.title}} <i class="fa {{pursuit.statusicon}}" aria-hidden="true"></i></a></li>
         {% endfor %}
     </ul>
     <hr/>
