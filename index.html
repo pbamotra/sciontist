@@ -28,6 +28,7 @@ layout: default
           method: 'GET',
       }).done(function(results) {
           results = _.sample(results, {{site.hnn}});
+          console.log('Results length', results.length);
           disp = 0;
           $.each(results, function(index, result) {
              $.ajax({
