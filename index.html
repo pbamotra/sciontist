@@ -20,7 +20,7 @@ layout: default
     {% assign mod = paginator.total_posts | modulo:2 %}
     {% if mod == site.mod_switch %}
     {% if page.url == '/' and day != site.ghostday %}
-    <h1><i class="fa fa-hacker-news" aria-hidden="true"></i> stories:</h1>
+    <h1><span style="color:#f26522"><i class="fa fa-hacker-news" aria-hidden="true"></i></span> stories:</h1>
     <ul id="hn"></ul>
     <script type="text/javascript">
     var url = "https://hacker-news.firebaseio.com/v0/newstories.json";
