@@ -11,5 +11,6 @@ _url:
   - title: Neurons gone wild
     type: fa-external-link
     uri: http://www.meltingasphalt.com/neurons-gone-wild/
+    heart: <span style="color:red"><i class="fa fa-heart" aria-hidden="true"></i></span>
 tag: tutorial
 ---
