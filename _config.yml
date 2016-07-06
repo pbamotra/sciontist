@@ -40,7 +40,7 @@ gems:
 
 
 # Pagination
-paginate: 6
+paginate: 5
 
 
 # hacker-news
