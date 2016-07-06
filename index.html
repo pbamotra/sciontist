@@ -41,7 +41,8 @@ layout: default
                       $('ul#hn').append('<li>' + '<a href="' + result.url + '" target="_blank">' + result.title + '</a></li>');
                       disp += 1;
                   }
-                  if (index == results.length - 1 && $("#hn ul").children().length < 1) {
+                  if (index == results.length - 1 && disp < 1) {
+                      console.log('N child', $("#hn ul").children().length);
                       $('ul#hn').append('<li>' + 'Refresh <i class="fa fa-refresh" aria-hidden="true"></i> for more stories.' + '</li>');
                   }
               }).fail(function(err) {
