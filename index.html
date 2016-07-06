@@ -27,7 +27,7 @@ layout: default
           url: url,
           method: 'GET',
       }).done(function(results) {
-          results = results.slice(0, {{site.hnn}});
+          results = _.sample(results, {{site.hnn}});
           $.each(results, function(index, result) {
              $.ajax({
                 url: item_url + result + '.json',
