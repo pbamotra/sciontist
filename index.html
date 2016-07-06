@@ -32,7 +32,7 @@ layout: default
                 url: item_url + result + '.json',
                 method: 'GET',
               }).done(function(result) {
-                  if (result.title.length < {{ site.hnlength}} && result.type='story') {
+                  if (result.title.length < {{ site.hnlength}} && result.type=='story') {
                       $('ul#hn').append('<li>' + '<a href="' + result.url + '" target="_blank">' + result.title + '</a></li>');
                   }
               }).fail(function(err) {
