@@ -20,13 +20,14 @@ layout: default
     <h1>HN stories:</h1>
     <ul id="hn"></ul>
     <script type="text/javascript">
-    var url = "https://hacker-news.firebaseio.com/v0/beststories.json";
+    var url = "https://hacker-news.firebaseio.com/v0/newstories.json";
     var item_url = "https://hacker-news.firebaseio.com/v0/item/";
         $.ajax({
           url: url,
           method: 'GET',
       }).done(function(results) {
           results = results.slice(0, 5);
+          disp = 0;
           $.each(results, function(index, result) {
              $.ajax({
                 url: item_url + result + '.json',
@@ -34,6 +35,7 @@ layout: default
               }).done(function(result) {
                   if (result.title.length < {{ site.hnlength}} && result.type=='story' && result.title.indexOf('Ask') != 0) {
                       $('ul#hn').append('<li>' + '<a href="' + result.url + '" target="_blank">' + result.title + '</a></li>');
+                      disp = disp + 1;
                   }
               }).fail(function(err) {
                 throw err;
