@@ -58,7 +58,7 @@ ghostday: Fri
 pursuits:
   - title: Probabilistic Models of Cognition
     uri: https://probmods.org/index.html
-  - title: STAT 365/665: Data Mining and Machine Learning
+  - title: STAT 365/665 Data Mining and Machine Learning
     uri: http://euler.stat.yale.edu/~tba3/stat665/
   - title: CSE 6389 Advanced Topics in ML and Data Mining
     uri: http://ranger.uta.edu/~heng/CSE6389.html
