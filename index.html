@@ -16,7 +16,8 @@ layout: default
 </div>
 -->
 <div class="blog">
-    <h1>HN stories</h1>
+    <h1>HN stories:</h1>
+    <ul id="hn"></ul>
     <script type="text/javascript">
     var url = "https://hacker-news.firebaseio.com/v0/topstories.json";
     var item_url = "https://hacker-news.firebaseio.com/v0/item/";
@@ -30,7 +31,7 @@ layout: default
                 url: item_url + result + '.json',
                 method: 'GET',
               }).done(function(result) {
-                  // document.write('<a href="' + result.url + '">result.title</a><br/>');
+                  $('ul#hn').append('<li>' + '<a href="' + result.url + '">result.title</a>' + '</li>');
               }).fail(function(err) {
                 throw err;
               });
