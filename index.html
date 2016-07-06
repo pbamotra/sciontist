@@ -28,6 +28,7 @@ layout: default
           method: 'GET',
       }).done(function(results) {
           results = _.sample(results, {{site.hnn}});
+          disp = 0;
           $.each(results, function(index, result) {
              $.ajax({
                 url: item_url + result + '.json',
@@ -38,6 +39,10 @@ layout: default
                       result.title.indexOf('Ask') != 0 &&
                       typeof result.url != 'undefined') {
                       $('ul#hn').append('<li>' + '<a href="' + result.url + '" target="_blank">' + result.title + '</a></li>');
+                      disp += 1;
+                  }
+                  if (index == results.length - 1) {
+                      console.log('Disp', disp);
                   }
               }).fail(function(err) {
                 throw err;
