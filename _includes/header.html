@@ -11,6 +11,8 @@
         {% endfor %}
     </ul>
 </div>
+{% assign day = page.date | date: "%A" %}
+{{ day }}
 <!-- <div id="logo">
     {% assign mod = paginator.total_posts | modulo:2 %}
     {% if mod == site.mod_switch %}
