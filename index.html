@@ -26,7 +26,7 @@ layout: default
           url: url,
           method: 'GET',
       }).done(function(results) {
-          results = results.slice(0, 5);
+          results = results.slice(0, {{site.hnn}});
           disp = 0;
           $.each(results, function(index, result) {
              $.ajax({
