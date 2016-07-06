@@ -17,6 +17,8 @@ layout: default
 -->
 <div class="blog">
     {% assign day = site.time | date: "%a" %}
+    {% assign mod = paginator.total_posts | modulo:2 %}
+    {% if mod == site.mod_switch %}
     {% if page.url == '/' and day != site.ghostday %}
     <h1>HN stories:</h1>
     <ul id="hn"></ul>
@@ -53,6 +55,15 @@ layout: default
           throw err;
         });
     </script>
+    <hr/>
+    {% endif %}
+    {% else %}
+    <h1>On Pursuit:</h1>
+    <ul id="pursuit">
+        {% for pursuit in site.pursuits %}
+            <li><a href="{{pursuit.uri}}" class="no-dec" target="_blank">{{pursuit.title}}</a></li>
+        {% endfor %}
+    </ul>
     <hr/>
     {% endif %}
     <h1>Collections:</h1>
