@@ -8,6 +8,8 @@ _url:
   - title: Probabilistic topic modeling - David M. Blei
     type: fa-file-pdf-o
     uri: http://www.cs.columbia.edu/~blei/papers/Blei2012.pdf
-
+  - title: Neurons gone wild
+    type: fa-external-link
+    uri: http://www.meltingasphalt.com/neurons-gone-wild/
 tag: tutorial
 ---
