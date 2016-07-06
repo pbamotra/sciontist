@@ -43,7 +43,7 @@ layout: default
                       $('ul#hn').append('<li>' + '<a href="' + result.url + '" target="_blank">' + result.title + '</a></li>');
                   }
                   if (index == results.length - 1 && disp < 1) {
-                      $('ul#hn').append('<li>' + 'Refresh <a href="location.reload();" <i class="fa fa-refresh" aria-hidden="true"></i></a> for more stories.' + '</li>');
+                      $('ul#hn').append('<li>' + 'Refresh <a href="/" onclick="location.reload()"> <i class="fa fa-refresh" aria-hidden="true"></i></a> for more stories.' + '</li>');
                   }
               }).fail(function(err) {
                 throw err;
