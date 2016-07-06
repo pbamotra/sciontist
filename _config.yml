@@ -13,6 +13,7 @@ description: Personal experiences with data that flows around humans, making sen
 google_verification: y2YP_ez9dBS6EBpQHBdl10cRARPTHz-fAhbh74HFn8E
 mod_switch: 1
 url: http://sciontist.com
+timezone: America/New_York
 
 # File management
 include: [".htaccess"]
