@@ -35,7 +35,7 @@ layout: default
                   if (result.title.length < {{ site.hnlength}} &&
                       result.type=='story' &&
                       result.title.indexOf('Ask') != 0 &&
-                      result.url != 'undefined') {
+                      typeof result.url != 'undefined') {
                       $('ul#hn').append('<li>' + '<a href="' + result.url + '" target="_blank">' + result.title + '</a></li>');
                   }
               }).fail(function(err) {
