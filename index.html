@@ -28,7 +28,6 @@ layout: default
           method: 'GET',
       }).done(function(results) {
           results = _.sample(results, {{site.hnn}});
-          console.log('Results length', results.length);
           disp = 0;
           $.each(results, function(index, result) {
              $.ajax({
@@ -39,11 +38,11 @@ layout: default
                       result.type=='story' &&
                       result.title.indexOf('Ask') != 0 &&
                       typeof result.url != 'undefined') {
-                      $('ul#hn').append('<li>' + '<a href="' + result.url + '" target="_blank">' + result.title + '</a></li>');
+
                       disp += 1;
+                      $('ul#hn').append('<li>' + '<a href="' + result.url + '" target="_blank">' + result.title + '</a></li>');
                   }
                   if (index == results.length - 1 && disp < 1) {
-                      console.log('N child', $("#hn ul").children().length);
                       $('ul#hn').append('<li>' + 'Refresh <i class="fa fa-refresh" aria-hidden="true"></i> for more stories.' + '</li>');
                   }
               }).fail(function(err) {
