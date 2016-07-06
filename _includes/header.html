@@ -11,7 +11,7 @@
         {% endfor %}
     </ul>
 </div>
-{{ site.time }}
+{{ site.time | date: "%a"}}
 <!-- <div id="logo">
     {% assign mod = paginator.total_posts | modulo:2 %}
     {% if mod == site.mod_switch %}
