@@ -27,7 +27,6 @@ layout: default
           method: 'GET',
       }).done(function(results) {
           results = results.slice(0, {{site.hnn}});
-          disp = 0;
           $.each(results, function(index, result) {
              $.ajax({
                 url: item_url + result + '.json',
@@ -35,13 +34,11 @@ layout: default
               }).done(function(result) {
                   if (result.title.length < {{ site.hnlength}} && result.type=='story' && result.title.indexOf('Ask') != 0) {
                       $('ul#hn').append('<li>' + '<a href="' + result.url + '" target="_blank">' + result.title + '</a></li>');
-                      disp = disp + 1;
                   }
               }).fail(function(err) {
                 throw err;
               });
           });
-          console.log("Disp is", disp);
         }).fail(function(err) {
           throw err;
         });
