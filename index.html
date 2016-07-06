@@ -25,13 +25,15 @@ layout: default
           url: url,
           method: 'GET',
       }).done(function(results) {
-          results = results.slice(0, 6);
+          results = results.slice(0, 5);
           $.each(results, function(index, result) {
              $.ajax({
                 url: item_url + result + '.json',
                 method: 'GET',
               }).done(function(result) {
-                  $('ul#hn').append('<li>' + '<a href="' + result.url + '">result.title</a>' + '</li>');
+                  if (result.title.length < {{ site.hnlength}}) {
+                      $('ul#hn').append('<li>' + '<a href="' + result.url + '" target="_blank">' + result.title + '</a></li>');
+                  }
               }).fail(function(err) {
                 throw err;
               });

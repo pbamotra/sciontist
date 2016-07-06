@@ -41,3 +41,7 @@ gems:
 
 # Pagination
 paginate: 6
+
+
+# hacker-news
+hnlength: 50
