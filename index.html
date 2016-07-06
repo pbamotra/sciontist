@@ -16,9 +16,7 @@ layout: default
 </div>
 -->
 <div class="blog">
-    {{ page.url }}
-    {{ site.url }}
-    {% if page.url == site.url %}
+    {% if page.url == '/' %}
     <h1>HN stories:</h1>
     <ul id="hn"></ul>
     <script type="text/javascript">
