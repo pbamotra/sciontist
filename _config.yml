@@ -60,10 +60,6 @@ ghostday: Fri
 
 # pursuits
 pursuits:
-  - title: Probabilistic Models of Cognition
-    uri: https://probmods.org/index.html
-    statusicon: fa-star-o
-    color: 000000
   - title: STAT 365/665 Data Mining and Machine Learning
     uri: http://euler.stat.yale.edu/~tba3/stat665/
     statusicon: fa-star-o
