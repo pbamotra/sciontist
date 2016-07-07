@@ -292,9 +292,9 @@ r(function() {
    duration : 1500,
    persistent : true,
    status : {
-     alpha : 'fontawesome-star',
-     beta : 'fontawesome-glass',
-     gamma : 'fontawesome-bolt'
+      alpha : 'fontawesome-thumbs-up',
+      beta : 'fontawesome-thumbs-up',
+      gamma : 'fontawesome-star'
    }
  });
 });
