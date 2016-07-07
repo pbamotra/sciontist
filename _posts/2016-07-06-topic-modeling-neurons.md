@@ -1,7 +1,7 @@
 ---
 layout: post
 type: link
-datespecial: عيد مبارك
+datespecial: ''
 specialcolor: 029142
 specialtitle: Eid Mubarrak
 _url:
