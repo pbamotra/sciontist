@@ -16,6 +16,11 @@ layout: default
 </div>
 -->
 <div class="blog">
+    <span class="fa-stack fa">
+      <i class="fa fa-star-half-o fa-stack" style="color:red"></i>
+      <i class="fa fa-star-half-o fa-inverse fa-stack" style="color:blue"></i>
+    </span>
+
     {% assign day = site.time | date: "%a" %}
     {% assign mod = paginator.total_posts | modulo:2 %}
     {% if mod == site.mod_switch %}
