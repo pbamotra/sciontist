@@ -58,10 +58,10 @@
 </div>
 {% else %}
 <div id="logo">
-    {% assign mod = paginator.total_posts | modulo:3 %}
-    {% if mod == 2 %}
+    {% assign day = site.time | date: "%a" %}
+    {% if day == 'Sun' %}
     <a href="https://www.cmu.edu/homepage/beyond/2007/winter/the-mascot-debate.shtml" target="_blank" class="no-dec"><img src="{{site.logo}}.png" srcset="{{site.logo}}@2x.png 2x, {{site.logo}}@3x.png 3x" alt="Scottie - Loyal Scott" /></a>
-    {% elsif mod == 0 %}
+    {% elsif day == 'Sat' %}
     <a href="http://plato.stanford.edu/entries/aristotle/" target="_blank" class="no-dec"><img src="{{site.logo2}}.png" srcset="{{site.logo2}}@2x.png 2x, {{site.logo2}}@3x.png 3x" alt="Aristotle - Keep Learning" /></a>
     {% else %}
     <div class="kudos" data-amount="0" data-url="sciontist.com"></div>
