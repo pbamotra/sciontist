@@ -70,8 +70,14 @@ layout: default
     <ul>
         {% for post in paginator.posts %}
         <li>
+            {% if post.datespecial and post.specialcolor %}
+            {% assign special = post.datespecial %}
+            {% assign specialcolor = post.specialcolor %}
+            {% else %}
+            {% assign special = '' %}
+            {% assign specialcolor = 000000 %}
             {% if post.type == "post" %}
-            <span class="date">{{ post.date | date: '%Y %b %d' }}</span> <br/> <a href="{{ post.url }}" style="line-height:1.5">{{ post.title }}</a>
+            <span class="date">{{ post.date | date: '%Y %b %d' }} <span style="color:#{{specialcolor}}">{{special}}</span></span> <br/> <a href="{{ post.url }}" style="line-height:1.5">{{ post.title }}</a>
             {% else %}
             {% for p in post._url %}
             {% if p.heart %}
@@ -80,7 +86,7 @@ layout: default
             {% assign heart = '' %}
             {% endif %}
             {% if forloop.index == 1 %}
-            <span class="date">{{ post.date | date: '%Y %b %d' }}</span> <br/> <a href="{{ p.uri }}" target="_blank" style="line-height:1.5">{{ p.title }}</a> {{ heart }} <i class="fa {{ p.type }}" aria-hidden="true"></i>
+            <span class="date">{{ post.date | date: '%Y %b %d' }} <span style="color:#{{specialcolor}}">{{special}}</span></span> <br/> <a href="{{ p.uri }}" target="_blank" style="line-height:1.5">{{ p.title }}</a> {{ heart }} <i class="fa {{ p.type }}" aria-hidden="true"></i>
             {% else %}
             <span class="date">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <br/> <a href="{{ p.uri }}" target="_blank" style="line-height:1.5">{{ p.title }}</a> {{ heart }} <i class="fa {{ p.type }}" aria-hidden="true"></i>
             {% endif %}

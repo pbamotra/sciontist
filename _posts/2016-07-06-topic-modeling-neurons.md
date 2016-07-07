@@ -1,6 +1,8 @@
 ---
 layout: post
 type: link
+datespecial: عيد مبارك
+specialcolor: 029142
 _url:
   - title: Five minute introduction to topic modeling
     type: fa-external-link
