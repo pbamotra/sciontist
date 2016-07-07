@@ -1,6 +1,16 @@
 /*
  * Kudos
  */
+ @import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+/*
+ * Use FontAwesome from weloveiconfonts.com
+ */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+  font-weight:normal;
+}
+
 .kudos {
   position: relative;
   width: 6em;
