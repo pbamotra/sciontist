@@ -61,7 +61,7 @@
     {% assign mod = paginator.total_posts | modulo:site.nmod %}
     {% if mod == 2 %}
     <a href="https://www.cmu.edu/homepage/beyond/2007/winter/the-mascot-debate.shtml" target="_blank" class="no-dec"><img src="{{site.logo}}.png" srcset="{{site.logo}}@2x.png 2x, {{site.logo}}@3x.png 3x" alt="Scottie - Loyal Scott" /></a>
-    {% elseif mod == 0 %}
+    {% elsif mod == 0 %}
     <a href="http://plato.stanford.edu/entries/aristotle/" target="_blank" class="no-dec"><img src="{{site.logo2}}.png" srcset="{{site.logo2}}@2x.png 2x, {{site.logo2}}@3x.png 3x" alt="Aristotle - Keep Learning" /></a>
     {% else %}
     <div class="kudos" data-amount="1" data-url="http://sciontist.com"></div>
