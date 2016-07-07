@@ -58,11 +58,25 @@
 </div>
 {% else %}
 <div id="logo">
-    {% assign mod = paginator.total_posts | modulo:2 %}
-    {% if mod == site.mod_switch %}
+    {% assign mod = paginator.total_posts | modulo:site.nmod %}
+    {% if mod == 2 %}
     <a href="https://www.cmu.edu/homepage/beyond/2007/winter/the-mascot-debate.shtml" target="_blank" class="no-dec"><img src="{{site.logo}}.png" srcset="{{site.logo}}@2x.png 2x, {{site.logo}}@3x.png 3x" alt="Scottie - Loyal Scott" /></a>
-    {% else %}
+    {% elseif mod == 0 %}
     <a href="http://plato.stanford.edu/entries/aristotle/" target="_blank" class="no-dec"><img src="{{site.logo2}}.png" srcset="{{site.logo2}}@2x.png 2x, {{site.logo2}}@3x.png 3x" alt="Aristotle - Keep Learning" /></a>
+    {% else %}
+    <div class="kudos" data-amount="1" data-url="http://sciontist.com"></div>
+    <script type="text/javascript">
+        new KudosPlease({
+            el : '.kudos',
+            duration : 1500,
+            persistent : true,
+            status : {
+              alpha: 'fontelico-emo-shoot',
+              beta: 'fontelico-emo-shoot',
+              gamma: 'fontelico-emo-beer'
+            }
+        });
+    </script>
     {% endif %}
 </div>
 {% endif %}

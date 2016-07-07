@@ -20,6 +20,10 @@ include: [".htaccess"]
 exclude: ["README.md", "LICENSE"]
 
 
+# mod switch
+nmod: 3
+
+
 # Sass
 sass:
   style: :compressed
