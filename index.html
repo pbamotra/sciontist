@@ -78,7 +78,7 @@ layout: default
             {% assign specialcolor = 000000 %}
             {% endif %}
             {% if post.type == "post" %}
-            <span class="date" style="color:#{{specialcolor}}">{{ post.date | date: '%Y %b %d' }} </span> <br/> <a href="{{ post.url }}" style="line-height:1.5">{{ post.title }}</a>
+            <span class="date" style="color:#{{specialcolor}}" title="{{special}}">{{ post.date | date: '%Y %b %d' }} </span> <br/> <a href="{{ post.url }}" style="line-height:1.5">{{ post.title }}</a>
             {% else %}
             {% for p in post._url %}
             {% if p.heart %}
@@ -87,7 +87,7 @@ layout: default
             {% assign heart = '' %}
             {% endif %}
             {% if forloop.index == 1 %}
-            <span class="date" style="color:#{{specialcolor}}">{{ post.date | date: '%Y %b %d' }} </span> <br/> <a href="{{ p.uri }}" target="_blank" style="line-height:1.5">{{ p.title }}</a> {{ heart }} <i class="fa {{ p.type }}" aria-hidden="true"></i>
+            <span class="date" style="color:#{{specialcolor}}" title="{{special}}">{{ post.date | date: '%Y %b %d' }} </span> <br/> <a href="{{ p.uri }}" target="_blank" style="line-height:1.5">{{ p.title }}</a> {{ heart }} <i class="fa {{ p.type }}" aria-hidden="true"></i>
             {% else %}
             <span class="date">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <br/> <a href="{{ p.uri }}" target="_blank" style="line-height:1.5">{{ p.title }}</a> {{ heart }} <i class="fa {{ p.type }}" aria-hidden="true"></i>
             {% endif %}
