@@ -290,7 +290,7 @@ r(function() {
  var kudosPlease = new KudosPlease({
    el : '.kudos',
    duration : 1500,
-   persistent : false,
+   persistent : true,
    status : {
      alpha : 'fontawesome-star',
      beta : 'fontawesome-glass',
