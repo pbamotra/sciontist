@@ -76,6 +76,7 @@ layout: default
             {% else %}
             {% assign special = '' %}
             {% assign specialcolor = 000000 %}
+            {% endif %}
             {% if post.type == "post" %}
             <span class="date">{{ post.date | date: '%Y %b %d' }} <span style="color:#{{specialcolor}}">{{special}}</span></span> <br/> <a href="{{ post.url }}" style="line-height:1.5">{{ post.title }}</a>
             {% else %}
