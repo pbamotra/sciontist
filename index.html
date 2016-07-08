@@ -81,6 +81,20 @@ layout: default
             {% endif %}
             {% if post.type == "post" %}
             <span class="date" title="{{specialtitle}}" style="color:#{{specialcolor}}">{{ post.date | date: '%Y %b %d' }}</span> {{special}}<br/> <a href="{{ post.url }}" style="line-height:1.5">{{ post.title }}</a>
+            {% elsif post.type == "both" %}
+            <span class="date" title="{{specialtitle}}" style="color:#{{specialcolor}}">{{ post.date | date: '%Y %b %d' }}</span> {{special}}<br/> <a href="{{ post.url }}" style="line-height:1.5">{{ post.title }}</a>
+            {% for p in post._url %}
+            {% if p.heart %}
+            {% assign heart = p.heart %}
+            {% else %}
+            {% assign heart = '' %}
+            {% endif %}
+            {% if forloop.index == 1 %}
+            <span class="date" title="{{specialtitle}}" style="color:#{{specialcolor}}">{{ post.date | date: '%Y %b %d' }}</span> {{special}}<br/> <a href="{{ p.uri }}" target="_blank" style="line-height:1.5">{{ p.title }}</a> {{ heart }} <i class="fa {{ p.type }}" aria-hidden="true"></i>
+            {% else %}
+            <span class="date">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <br/> <a href="{{ p.uri }}" target="_blank" style="line-height:1.5">{{ p.title }}</a> {{ heart }} <i class="fa {{ p.type }}" aria-hidden="true"></i>
+            {% endif %}
+            {% endfor %}
             {% else %}
             {% for p in post._url %}
             {% if p.heart %}
