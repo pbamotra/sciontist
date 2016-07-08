@@ -68,6 +68,9 @@
     {% endif %}
 </div>
 {% endif %}
+{% if page.show_home %}
+<i class="fa fa-home fa-2x" aria-hidden="true"></i>
+{% endif %}
 <form id="demo-2" action="/search.html" method="get">
     <input type="search" placeholder="Search" name="query" />
 </form>
