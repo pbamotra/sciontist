@@ -345,6 +345,8 @@ hr {
   transition: width 0.6s, border-radius 0.6s, background 0.6s, box-shadow 0.6s;
   width: 40px;
   height: 40px;
+  font-family: inherit;
+  font-size: inherit;
   border-radius: 20px;
   border: none;
   cursor: pointer;
