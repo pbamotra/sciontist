@@ -71,7 +71,8 @@
     {% endif %}
 </div>
 {% endif %}
-<form action="/search.html" method="get">
-    <input type="search" placeholder="Search" name="query" />
+<form class="search-container" action="/search.html" method="get">
+  <input id="search-box" type="text" class="search-box" name="q" />
+  <label for="search-box"><span class="glyphicon glyphicon-search search-icon"></span></label>
 </form>
 <hr/>
