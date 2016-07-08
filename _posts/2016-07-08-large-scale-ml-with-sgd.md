@@ -1,16 +1,13 @@
 ---
 layout: post
 type: both
-tag: paper
+tag: paper, ml
 title: Large-Scale Machine Learning with SGD
 _url:
-  - title: Zero Knowledge Proofs — A Primer
+  - title: Why Python is Slow?
     type: fa-external-link
-    uri: https://jeremykun.com/2016/07/05/zero-knowledge-proofs-a-primer/
+    uri: https://jakevdp.github.io/blog/2014/05/09/why-python-is-slow/
     heart: <span style="color:#19B5FE" title="Fascinating stuff"><i class="fa fa-bolt" aria-hidden="true"></i></span>
-  - title: Central Limit Theorem - It's sexy, so know it!
-    type: fa-external-link
-    uri: http://www.jeannicholashould.com/the-theorem-every-data-scientist-should-know.html
 ---
 Link to paper: [L´eon Bottou, Large-Scale Machine Learning
 with SGD](http://leon.bottou.org/publications/pdf/compstat-2010.pdf) <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
