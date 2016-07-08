@@ -339,6 +339,15 @@ hr {
     margin-top: 1em;
 }
 
+input.search-box::-webkit-input-placeholder {
+    font-family:'FontAwesome';
+}
+input.search-box::-moz-placeholder {
+    font-family:'FontAwesome';
+}
+input.search-box::-ms-input-placeholder {
+    font-family:'FontAwesome';
+}
 
 .search-box {
   -webkit-transition: width 0.6s, border-radius 0.6s, background 0.6s, box-shadow 0.6s;
@@ -393,14 +402,4 @@ hr {
   left: -30px;
   color: white;
   cursor: pointer;
-}
-
-input.search-box::-webkit-input-placeholder {
-    font-family:'FontAwesome';
-}
-input.search-box::-moz-placeholder {
-    font-family:'FontAwesome';
-}
-input.search-box::-ms-input-placeholder {
-    font-family:'FontAwesome';
 }
