@@ -394,3 +394,13 @@ hr {
   color: white;
   cursor: pointer;
 }
+
+input.search-box::-webkit-input-placeholder {
+    font-family:'FontAwesome';
+}
+input.search-box::-moz-placeholder {
+    font-family:'FontAwesome';
+}
+input.search-box::-ms-input-placeholder {
+    font-family:'FontAwesome';
+}
