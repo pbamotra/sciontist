@@ -9,6 +9,11 @@
             <a href="{{ item.url }}">{{ item.title }}</a>
         </li>
         {% endfor %}
+        <li>
+            <form id="demo-2" action="/search.html" method="get">
+                <input type="search" placeholder="Search">
+            </form>
+        </li>
     </ul>
 </div>
 {% assign day = site.time | date: "%a" %}
