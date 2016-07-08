@@ -5,7 +5,7 @@
 <div class="sub-header">
     <ul>
         {% if page.show_home %}
-        <li><i class="fa fa-home fa-2x" aria-hidden="true"></i></li>
+        <li><a href="/"><i class="fa fa-home fa-2x" aria-hidden="true"></i></a></li>
         {% endif %}
         {% for item in site.data.navigation %}
         <li class="{{ item.type}}">
