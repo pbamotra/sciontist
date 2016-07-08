@@ -9,8 +9,7 @@ _url:
     uri: https://jakevdp.github.io/blog/2014/05/09/why-python-is-slow/
     heart: <span style="color:#19B5FE" title="Fascinating stuff"><i class="fa fa-bolt" aria-hidden="true"></i></span>
 ---
-Link to paper: [L´eon Bottou, Large-Scale Machine Learning
-with SGD](http://leon.bottou.org/publications/pdf/compstat-2010.pdf) <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+Link to paper: [L´eon Bottou, Large-Scale Machine Learning with SGD](http://leon.bottou.org/publications/pdf/compstat-2010.pdf) <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
 <br />
 <br />
 Keypoints: -
