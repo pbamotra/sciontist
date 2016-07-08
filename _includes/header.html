@@ -4,6 +4,9 @@
 </div>
 <div class="sub-header">
     <ul>
+        {% if page.show_home %}
+        <li><i class="fa fa-home fa-2x" aria-hidden="true"></i></li>
+        {% endif %}
         {% for item in site.data.navigation %}
         <li class="{{ item.type}}">
             <a href="{{ item.url }}">{{ item.title }}</a>
@@ -67,9 +70,6 @@
     <div class="kudos" data-amount="0" data-url="sciontist.com"></div>
     {% endif %}
 </div>
-{% endif %}
-{% if page.show_home %}
-<i class="fa fa-home fa-2x" aria-hidden="true"></i>
 {% endif %}
 <form id="demo-2" action="/search.html" method="get">
     <input type="search" placeholder="Search" name="query" />
