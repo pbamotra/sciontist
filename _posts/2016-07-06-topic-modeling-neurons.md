@@ -18,6 +18,8 @@ _url:
     heart: <span style="color:red" title="I love it!"><i class="fa fa-heart" aria-hidden="true"></i></span>
 tag: tutorial
 ---
+This post contains links to the content on topic modeling and the Melting Asphalt's Neurons gone wild.
+
 {% for p in page._url %}
 {% if p.heart %}
 {% assign heart = p.heart %}

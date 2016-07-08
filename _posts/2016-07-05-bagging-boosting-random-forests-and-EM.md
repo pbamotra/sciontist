@@ -11,6 +11,8 @@ _url:
     uri: https://www.cs.utah.edu/~piyush/teaching/EM_algorithm.pdf
 tag: tutorial
 ---
+This post contains links to the content on Bagging, Boosting, Random forests, and the EM algorithm.
+
 {% for p in page._url %}
 {% if p.heart %}
 {% assign heart = p.heart %}

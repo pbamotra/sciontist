@@ -12,6 +12,8 @@ _url:
     type: fa-external-link
     uri: http://www.jeannicholashould.com/the-theorem-every-data-scientist-should-know.html
 ---
+This post contains links to the content on Zero Knowledge Proofs and the Central Limit Theorem.
+
 {% for p in page._url %}
 {% if p.heart %}
 {% assign heart = p.heart %}
