@@ -4,7 +4,7 @@ type: both
 tag: paper, ml
 title: Large-Scale Machine Learning with SGD
 _url:
-  - title: Why Python is slow: Looking under the hood
+  - title: Why Python is slow &#58; Looking under the hood
     type: fa-external-link
     uri: https://jakevdp.github.io/blog/2014/05/09/why-python-is-slow/
     heart: <span style="color:#19B5FE" title="Fascinating stuff"><i class="fa fa-bolt" aria-hidden="true"></i></span>
