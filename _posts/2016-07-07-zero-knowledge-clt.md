@@ -13,7 +13,7 @@ _url:
     uri: http://www.jeannicholashould.com/the-theorem-every-data-scientist-should-know.html
 ---
 Link to paper: [L´eon Bottou, Large-Scale Machine Learning
-with Stochastic Gradient Descent](http://leon.bottou.org/publications/pdf/compstat-2010.pdf) <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+with SGD](http://leon.bottou.org/publications/pdf/compstat-2010.pdf) <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
 <br />
 <br />
 Keypoints: -
