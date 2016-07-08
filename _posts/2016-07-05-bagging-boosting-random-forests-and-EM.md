@@ -11,3 +11,15 @@ _url:
     uri: https://www.cs.utah.edu/~piyush/teaching/EM_algorithm.pdf
 tag: tutorial
 ---
+{% for p in page._url %}
+{% if p.heart %}
+{% assign heart = p.heart %}
+{% else %}
+{% assign heart = '' %}
+{% endif %}
+{% if forloop.index == 1 %}
+<span class="date" title="{{specialtitle}}" style="color:#{{specialcolor}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> {{special}}<br/> <a href="{{ p.uri }}" target="_blank" style="line-height:1.5">{{ p.title }}</a> {{ heart }} <i class="fa {{ p.type }}" aria-hidden="true"></i>
+{% else %}
+<span class="date">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <br/> <a href="{{ p.uri }}" target="_blank" style="line-height:1.5">{{ p.title }}</a> {{ heart }} <i class="fa {{ p.type }}" aria-hidden="true"></i>
+{% endif %}
+{% endfor %}
