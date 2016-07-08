@@ -2,7 +2,7 @@
 layout: post
 type: link
 tag: paper
-title: Large-Scale Machine Learning with SGD
+title: Zero knowledge proofs and Central Limit Theorem
 _url:
   - title: Zero Knowledge Proofs — A Primer
     type: fa-external-link

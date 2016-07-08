@@ -4,6 +4,7 @@ type: link
 datespecial: ''
 specialcolor: 029142
 specialtitle: Eid Mubarrak
+title: Topic modeling, Neurons, and stuff to ponder
 _url:
   - title: Five minute introduction to topic modeling
     type: fa-external-link

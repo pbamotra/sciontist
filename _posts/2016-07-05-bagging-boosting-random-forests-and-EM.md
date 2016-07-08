@@ -1,6 +1,7 @@
 ---
 layout: post
 type: link
+title: Bagging, Boosting, Random forests, and EM
 _url:
   - title: Bagging, Boosting, and Random forests
     type: fa-git
