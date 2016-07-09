@@ -15,7 +15,7 @@ _url:
   - title: Apollo 11 guidance computer source code
     type: fa-git
     uri: https://github.com/chrislgarry/Apollo-11
-    heart: <span style="color:red" title="I love it!"><i class="fa fa-heart" aria-hidden="true"></i></span>
+    heart: <span style="color:red" title="I love it!"><i class="fa fa-heart" aria-hidden="true"></i></span><span style="color:#19B5FE" title="Fascinating stuff"><i class="fa fa-bolt" aria-hidden="true"></i></span>
 ---
 This post contains links to the content on Lipschitz continuity from chapter 12.1 through 12.3 of Applied Mathematics: Body and Soul Volume 1, mentions of the Pittsburghese dialect that doesn’t use the construction “to be” across the board, and source code of Apollo 11 guidance computer system by Virtual AGC and MIT Museum.
 
