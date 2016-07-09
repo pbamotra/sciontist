@@ -7,7 +7,7 @@ _url:
   - title: Lipschitz continuity
     type: fa-file-pdf-o
     uri: http://www.springer.com/cda/content/document/cda_downloaddocument/9783540008903-c1.pdf
-    heart: <span style="color:#8bc34a" title="Simple and Best!"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></span>
+    heart: <span style="color:#f9a825" title="Simple and Best!"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></span>
 ---
 This post contains links to the content on Lipschitz continuity.
 
