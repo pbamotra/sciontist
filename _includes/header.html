@@ -64,9 +64,9 @@
     {% assign spotify_hours = "12,13,14,15,16,17" | split:"," %}
     {% if day == 'Sun' %}
     <a href="https://www.cmu.edu/homepage/beyond/2007/winter/the-mascot-debate.shtml" target="_blank" class="no-dec"><img src="{{site.logo}}.png" srcset="{{site.logo}}@2x.png 2x, {{site.logo}}@3x.png 3x" alt="Scottie - Loyal Scott" /></a>
-    {% elsif day == 'Mon' %}
+    {% elsif day == 'Sat' %}
     <a href="http://plato.stanford.edu/entries/aristotle/" target="_blank" class="no-dec"><img src="{{site.logo2}}.png" srcset="{{site.logo2}}@2x.png 2x, {{site.logo2}}@3x.png 3x" alt="Aristotle - Keep Learning" /></a>
-    {% elsif day == 'Sat' and spotify_hours contains hour %}
+    {% elsif day == 'Mon' and spotify_hours contains hour %}
     <iframe src="https://embed.spotify.com/?uri=spotify:track:{{site.monday_track}}" width="300" height="80" frameborder="0" allowtransparency="true" style="margin-top: 10px;"></iframe>
     {% else %}
     <div class="kudos" data-amount="0" data-url="sciontist.com"></div>
