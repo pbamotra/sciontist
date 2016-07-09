@@ -1,8 +1,8 @@
 ---
 layout: post
 type: link
-tag: ml, calculus
-title: Lipschitz continuity
+tag: ml, calculus, wow
+title: Lipschitz continuity, Pittsburghese, and Apollo 11 source code
 _url:
   - title: Lipschitz continuity
     type: fa-file-pdf-o
@@ -12,8 +12,12 @@ _url:
     type: fa-external-link
     uri: http://theglassblock.com/2016/07/07/pittsburghese-expertise-dropping-to-be/
     heart: <span style="color:red" title="I love it!"><i class="fa fa-heart" aria-hidden="true"></i></span>
+  - title: Apollo 11 guidance computer source code
+    type: fa-git
+    uri: https://github.com/chrislgarry/Apollo-11
+    heart: <span style="color:red" title="I love it!"><i class="fa fa-heart" aria-hidden="true"></i></span>
 ---
-This post contains links to the content on Lipschitz continuity from chapter 12.1 through 12.3 of Applied Mathematics: Body and Soul Volume 1 and mentions of the Pittsburghese dialect that doesn’t use the construction “to be” across the board!
+This post contains links to the content on Lipschitz continuity from chapter 12.1 through 12.3 of Applied Mathematics: Body and Soul Volume 1, mentions of the Pittsburghese dialect that doesn’t use the construction “to be” across the board, and source code of Apollo 11 guidance computer system by Virtual AGC and MIT Museum.
 
 {% for p in page._url %}
 {% if p.heart %}
