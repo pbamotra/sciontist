@@ -8,9 +8,10 @@
         <li><a href="/"><i class="fa fa-home fa-2x" aria-hidden="true"></i></a></li>
         {% endif %}
         {% for item in site.data.navigation %}
-        <li class="{{ item.type}}">
+        <li>{{item.bundle}}</li>
+        <!-- <li class="{{ item.type }}">
             <a href="{{ item.url }}">{{ item.title }}</a>
-        </li>
+        </li> -->
         {% endfor %}
     </ul>
 </div>

@@ -1,15 +1,5 @@
-- title: home
-  url: /
-  type: first
-
-- title: about
-  url: https://pbamotra.carrd.co
-  type: others
-
-- title: github
-  url: https://github.com/pbamotra
-  type: others
-
-- title: <span style="font-weight:bold">résumé <i class="fa fa-arrow-down" aria-hidden="true"></i> </span>
-  url: https://github.com/pbamotra/host/raw/master/pankesh-resume.pdf
-  type: others
+- bundle: <a class="first" href="/">home</a>
+- bundle: <a class="others" href="https://pbamotra.carrd.co">about</a>
+- bundle: <a class="others" href="https://github.com/pbamotra">github</a>
+- bundle: <a class="others" href="https://github.com/pbamotra/host/raw/master/pankesh-resume.pdf"><span style="font-weight:bold">résumé <i class="fa fa-arrow-down" aria-hidden="true"></i> </span></a>
+- bundle: <a class="typeform-share link" href="https://pbamotra.typeform.com/to/wevVUt" data-mode="2" target="_blank">submit</a>
