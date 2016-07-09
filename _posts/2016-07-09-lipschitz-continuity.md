@@ -9,7 +9,7 @@ _url:
     uri: http://www.springer.com/cda/content/document/cda_downloaddocument/9783540008903-c1.pdf
     heart: <span style="color:#f9a825" title="Simple and Best!"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></span>
 ---
-This post contains links to the content on Lipschitz continuity.
+This post contains links to the content on Lipschitz continuity from chapter 12.1 through 12.3 of Applied Mathematics: Body and Soul Volume 1.
 
 {% for p in page._url %}
 {% if p.heart %}
