@@ -74,5 +74,5 @@ pursuits:
     color: 000000
   - title: BerkeleyX CS105x Introduction to Apache Spark
     uri: https://courses.edx.org/courses/course-v1:BerkeleyX+CS105x+1T2016
-    statusicon: fa-star-half-o
-    color: f39c12
+    statusicon: fa-star
+    color: 4Caf50
