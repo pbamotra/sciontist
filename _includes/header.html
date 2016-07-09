@@ -62,7 +62,6 @@
     {% assign day = site.time | date: "%a" %}
     {% assign hour = site.time | date: "%H" %}
     {% assign spotify_hours = "12,13,14,15,16,17" | split:"," %}
-    {{hour}}
     {% if day == 'Sun' %}
     <a href="https://www.cmu.edu/homepage/beyond/2007/winter/the-mascot-debate.shtml" target="_blank" class="no-dec"><img src="{{site.logo}}.png" srcset="{{site.logo}}@2x.png 2x, {{site.logo}}@3x.png 3x" alt="Scottie - Loyal Scott" /></a>
     {% elsif day == 'Mon' %}
