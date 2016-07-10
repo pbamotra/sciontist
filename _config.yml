@@ -64,18 +64,10 @@ pursuits:
     uri: http://euler.stat.yale.edu/~tba3/stat665/
     statusicon: fa-star-o
     color: 000000
-  - title: CSE 6389 Advanced Topics in ML and Data Mining
-    uri: http://ranger.uta.edu/~heng/CSE6389.html
-    statusicon: fa-star-o
-    color: 000000
   - title: 10725 Convex Optimization
     uri: http://www.stat.cmu.edu/~ryantibs/convexopt/
     statusicon: fa-star-o
     color: 000000
-  - title: BerkeleyX CS105x Introduction to Apache Spark
-    uri: https://courses.edx.org/courses/course-v1:BerkeleyX+CS105x+1T2016
-    statusicon: fa-star
-    color: 4caf50
 
 
 # spotify
