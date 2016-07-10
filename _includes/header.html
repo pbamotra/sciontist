@@ -78,21 +78,3 @@
   <input id="search-box" type="text" class="search-box" name="query"/>
 </form>
 <hr/>
-<!-- anywhere else on your page -->
-<div id="dict-word" style="display:none">
-    var request = require('request');
-    var cheerio = require('cheerio');
-
-    var url = "https://www.vocabulary.com/dictionary/";
-    request(url, function(err, resp, body) {
-       if (err) throw err;
-       $ = cheerio.load(body);
-       $(".section.featuredWord").filter(function(){
-           var data = $(this);
-           var word = data.children('.dynamictext').text();
-           var wordLink = data.children('.dynamictext').children('a').attr('href');
-           console.log(wordLink);
-           var shortMeaning = data.children('.blurb').children('.short').text();
-       });
-    });
-</div>
