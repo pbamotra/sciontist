@@ -80,9 +80,9 @@ layout: default
             {% assign specialtitle = '' %}
             {% endif %}
             {% if post.type == "post" %}
-            <span class="date" title="{{specialtitle}}" style="color:#{{specialcolor}}">{{ post.date | date: '%Y %b %d' }}</span> {{special}}<br/> <a href="{{ post.url }}" style="line-height:1.5">{{ post.title }}</a><br/>
+            <span class="date" title="{{specialtitle}}" style="color:#{{specialcolor}}">{{ post.date | date: '%Y %b %d' }}</span> {{special}}<br/> <a href="{{ post.url }}" style="line-height:1.5">{{ post.title }}</a>
             {% elsif post.type == "both" %}
-            <span class="date" title="{{specialtitle}}" style="color:#{{specialcolor}}">{{ post.date | date: '%Y %b %d' }}</span> {{special}}<br/> <a href="{{ post.url }}" style="line-height:1.5">{{ post.title }}</a><br/>
+            <span class="date" title="{{specialtitle}}" style="color:#{{specialcolor}}">{{ post.date | date: '%Y %b %d' }}</span> {{special}}<br/> <a href="{{ post.url }}" style="line-height:1.5">{{ post.title }}</a>
             {% for p in post._url %}
             {% if p.heart %}
             {% assign heart = p.heart %}
