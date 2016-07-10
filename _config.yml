@@ -68,6 +68,10 @@ pursuits:
     uri: http://www.stat.cmu.edu/~ryantibs/convexopt/
     statusicon: fa-star-o
     color: 000000
+  - title: The Elements of Statistical Learning
+    uri: http://web.stanford.edu/~hastie/ElemStatLearn/
+    statusicon: fa-star-o
+    color: 000000
 
 
 # spotify
