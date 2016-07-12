@@ -1,7 +1,7 @@
 ---
 layout: post
 type: link
-publish: false
+publish: true
 tag: ml
 title: DNNs with stochastic depth, batch normalization, covariate shift correction
 _url:
