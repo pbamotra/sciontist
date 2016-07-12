@@ -61,7 +61,7 @@ layout: default
     <h1><i class="fa fa-bullseye" aria-hidden="true"></i>n Pursuit:</h1>
     <ul id="pursuit">
         {% for pursuit in site.pursuits %}
-            <li><a href="{{pursuit.uri}}" class="no-dec" target="_blank">{{pursuit.title}}</a> <span style="color:#{{pursuit.color}}"><i class="fa {{pursuit.statusicon}}" aria-hidden="true"></i></span></li>
+            <li><a href="{{pursuit.uri}}{{site.promo}}" class="no-dec" target="_blank">{{pursuit.title}}</a> <span style="color:#{{pursuit.color}}"><i class="fa {{pursuit.statusicon}}" aria-hidden="true"></i></span></li>
         {% endfor %}
     </ul>
     <hr/>
@@ -81,9 +81,9 @@ layout: default
                     {% assign specialtitle = '' %}
                 {% endif %}
                 {% if post.type == "post" %}
-                    <span class="date" title="{{specialtitle}}" style="color:#{{specialcolor}}">{{ post.date | date: '%Y %b %d' }}</span> {{special}}<br/> <a href="{{ post.url }}" style="line-height:1.5">{{ post.title }}</a>
+                    <span class="date" title="{{specialtitle}}" style="color:#{{specialcolor}}">{{ post.date | date: '%Y %b %d' }}</span> {{special}}<br/> <a href="{{ post.url }}{{site.promo}}" style="line-height:1.5">{{ post.title }}</a>
                 {% elsif post.type == "both" %}
-                    <span class="date" title="{{specialtitle}}" style="color:#{{specialcolor}}">{{ post.date | date: '%Y %b %d' }}</span> {{special}}<br/> <a href="{{ post.url }}" style="line-height:1.5">{{ post.title }}</a>
+                    <span class="date" title="{{specialtitle}}" style="color:#{{specialcolor}}">{{ post.date | date: '%Y %b %d' }}</span> {{special}}<br/> <a href="{{ post.url }}{{site.promo}}" style="line-height:1.5">{{ post.title }}</a>
                     {% for p in post._url %}
                         {% if p.heart %}
                             {% assign heart = p.heart %}
@@ -91,9 +91,9 @@ layout: default
                             {% assign heart = '' %}
                         {% endif %}
                         {% if forloop.index == 1 %}
-                            {{special}}<br/> <a href="{{ p.uri }}" target="_blank">{{ p.title }}</a> <i class="fa {{ p.type }}" aria-hidden="true"></i> {{ heart }} <br/>
+                            {{special}}<br/> <a href="{{ p.uri }}{{site.promo}}" target="_blank">{{ p.title }}</a> <i class="fa {{ p.type }}" aria-hidden="true"></i> {{ heart }} <br/>
                         {% else %}
-                            <a href="{{ p.uri }}" target="_blank">{{ p.title }}</a> <i class="fa {{ p.type }}" aria-hidden="true"></i> {{ heart }} <br/>
+                            <a href="{{ p.uri }}{{site.promo}}" target="_blank">{{ p.title }}</a> <i class="fa {{ p.type }}" aria-hidden="true"></i> {{ heart }} <br/>
                         {% endif %}
                     {% endfor %}
                 {% else %}
@@ -104,9 +104,9 @@ layout: default
                             {% assign heart = '' %}
                         {% endif %}
                         {% if forloop.index == 1 %}
-                            <span class="date" title="{{specialtitle}}" style="color:#{{specialcolor}}">{{ post.date | date: '%Y %b %d' }}</span> {{special}}<br/> <a href="{{ p.uri }}" target="_blank" style="line-height:1.5">{{ p.title }}</a> <i class="fa {{ p.type }}" aria-hidden="true"></i> {{ heart }} <br/>
+                            <span class="date" title="{{specialtitle}}" style="color:#{{specialcolor}}">{{ post.date | date: '%Y %b %d' }}</span> {{special}}<br/> <a href="{{ p.uri }}{{site.promo}}" target="_blank" style="line-height:1.5">{{ p.title }}</a> <i class="fa {{ p.type }}" aria-hidden="true"></i> {{ heart }} <br/>
                         {% else %}
-                            <a href="{{ p.uri }}" target="_blank">{{ p.title }}</a> <i class="fa {{ p.type }}" aria-hidden="true"></i> {{ heart }} <br/>
+                            <a href="{{ p.uri }}{{site.promo}}" target="_blank">{{ p.title }}</a> <i class="fa {{ p.type }}" aria-hidden="true"></i> {{ heart }} <br/>
                         {% endif %}
                     {% endfor %}
                 {% endif %}

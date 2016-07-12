@@ -13,6 +13,10 @@ _url:
     type: fa-file-pdf-o
     uri: http://arxiv.org/pdf/1502.03167v3.pdf
     heart: <span><a class="notes" target="_blank" href="https://gab41.lab41.org/batch-normalization-what-the-hey-d480039a9e3b">$notes_1$</a>&nbsp;<a class="notes" target="_blank" href="http://blog.smola.org/post/4110255196/real-simple-covariate-shift-correction">$notes_2$</a></span>
+  - title: Friendship and natural selection
+    type: fa-external-link
+    uri: http://www.pnas.org/content/111/Supplement_3/10796.long
+    heart: <span style="color:#19B5FE" title="Fascinating stuff"><i class="fa fa-bolt" aria-hidden="true"></i></span>
 ---
 This post contains links to the latest advances on deep networks in terms of stochastic depth that behaves like dropouts, but the whole layer is dropped stochastically. Batch normalization by Ioffe and Szegedy is yet another popular concept when it comes to DNNs. The discussion in the batch normalization links is about covariate shift correction which is a simple yet very effective technique in networks containing a lot of layers.
 
