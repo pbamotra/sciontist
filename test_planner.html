@@ -17,10 +17,9 @@ layout: default
 -->
 <div class="blog">
     {% assign day = site.time | date: "%a" %}
-    {% assign mod = paginator.total_posts | modulo:site.nmod %}
-    {{paginator.total_posts}}
+    {% assign mod = site.posts | size | modulo:site.nmod %}
     {% if mod == site.mod_switch %}
-    {% if page.url == '/' and day != site.ghostday %}
+    {% if page.url == '/test.html' and day != site.ghostday %}
     <h1><span style="color:#f26522"><i class="fa fa-hacker-news" aria-hidden="true"></i></span> stories:</h1>
     <ul id="hn"></ul>
     <script type="text/javascript">
@@ -116,20 +115,6 @@ layout: default
     </ul>
     <br/>
     <br/>
-    <!-- Pagination links -->
-    <div class="pagination">
-      {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-      {% else %}
-        <span class="previous">Previous</span>
-      {% endif %}
-      <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-      {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-      {% else %}
-        <span class="next ">Next</span>
-      {% endif %}
-    </div>
     <div id="tweet-me">
         <a href="https://twitter.com/intent/tweet?screen_name=_pbamotra_" class="twitter-mention-button" data-show-count="false">Tweet to @_pbamotra_</a><script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>

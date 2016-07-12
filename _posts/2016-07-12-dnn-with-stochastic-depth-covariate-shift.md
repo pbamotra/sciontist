@@ -2,7 +2,7 @@
 layout: post
 type: testo
 tag: ml
-title: Deep networks with stochastic depth, batch normalization, covariate shift correction
+title: DNNs with stochastic depth, batch normalization, covariate shift correction
 _url:
   - title: Deep Networks with Stochastic Depth
     type: fa-file-pdf-o
