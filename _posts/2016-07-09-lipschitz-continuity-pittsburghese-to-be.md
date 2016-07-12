@@ -1,6 +1,7 @@
 ---
 layout: post
 type: link
+publish: true
 tag: ml, calculus, wow
 title: Lipschitz continuity, Pittsburghese, and Apollo 11 source code
 _url:

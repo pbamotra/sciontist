@@ -1,6 +1,7 @@
 ---
 layout: post
 type: link
+publish: true
 datespecial: ''
 specialcolor: 029142
 specialtitle: Eid Mubarrak

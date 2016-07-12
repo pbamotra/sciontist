@@ -69,7 +69,6 @@ layout: default
     <h1>Collections ({{site.posts | size}}):</h1>
     <ul id="collections">
         {% for post in site.posts %}
-        {{post.title}} - {{post.type}}
         <li>
             {% if post.datespecial and post.specialcolor and post.specialtitle%}
                 {% assign special = post.datespecial %}
@@ -96,7 +95,7 @@ layout: default
                         <a href="{{ p.uri }}" target="_blank">{{ p.title }}</a> {{ heart }} <i class="fa {{ p.type }}" aria-hidden="true"></i><br/>
                     {% endif %}
                 {% endfor %}
-            {% elsif post.type == "link" or post.type == "testo" %}
+            {% else %}
                 {% for p in post._url %}
                     {% if p.heart %}
                         {% assign heart = p.heart %}

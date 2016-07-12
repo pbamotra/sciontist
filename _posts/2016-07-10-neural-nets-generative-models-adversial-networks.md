@@ -2,6 +2,7 @@
 layout: post
 type: link
 tag: ml
+publish: true
 title: Intro to neural networks, generative models, generative adversial nets
 _url:
   - title: Hacker's guide to Neural Networks

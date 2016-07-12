@@ -1,6 +1,7 @@
 ---
 layout: post
 type: post
+publish: true
 title: Beginning machine learning
 tag:
   - paper

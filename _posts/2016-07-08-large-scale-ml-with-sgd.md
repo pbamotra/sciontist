@@ -1,6 +1,7 @@
 ---
 layout: post
 type: both
+publish: true
 tag: paper, ml
 title: Large-Scale Machine Learning with SGD
 _url:

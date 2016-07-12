@@ -1,6 +1,7 @@
 ---
 layout: post
 type: link
+publish: true
 title: Ten Simple Rules for Effective Statistical Practice
 _url:
   - title: Ten Simple Rules for Effective Statistical Practice

@@ -2,6 +2,7 @@
 layout: post
 type: link
 tag: paper
+publish: true
 title: Zero knowledge proofs and Central Limit Theorem
 _url:
   - title: Zero Knowledge Proofs — A Primer

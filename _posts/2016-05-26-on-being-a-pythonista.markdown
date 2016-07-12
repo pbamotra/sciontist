@@ -1,6 +1,7 @@
 ---
 layout: post
 type: post
+publish: true
 title: On becoming a Pythonista
 tag: python
 ---

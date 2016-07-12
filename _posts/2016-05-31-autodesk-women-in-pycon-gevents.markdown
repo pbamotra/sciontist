@@ -1,6 +1,7 @@
 ---
 layout: post
 type: post
+publish: true
 title: Day 1 @ Autodesk, Pycon 2016, pycontracts, gevent
 tag:
   - life
