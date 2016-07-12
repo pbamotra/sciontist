@@ -70,7 +70,7 @@ layout: default
     <ul id="collections">
         {% for post in paginator.posts %}
         <li>
-                {% if post.datespecial and post.specialcolor and post.specialtitle%}
+                {% if post.datespecial and post.specialcolor and post.specialtitle %}
                     {% assign special = post.datespecial %}
                     {% assign specialcolor = post.specialcolor %}
                     {% assign specialtitle = post.specialtitle %}
@@ -95,7 +95,7 @@ layout: default
                             <a href="{{ p.uri }}" target="_blank">{{ p.title }}</a> {{ heart }} <i class="fa {{ p.type }}" aria-hidden="true"></i><br/>
                         {% endif %}
                     {% endfor %}
-                {% elseif post.type == "link" %}
+                {% elsif post.type == "link" %}
                     {% for p in post._url %}
                         {% if p.heart %}
                             {% assign heart = p.heart %}
