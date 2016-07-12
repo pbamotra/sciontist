@@ -2686,3 +2686,23 @@ input.search-box::-ms-input-placeholder {
 ul#collections li {
     line-height: 1.7em;
 }
+
+.notes {
+    color:blue;
+    font-size: small;
+    text-decoration: none;
+    &:visited {
+      color: blue;
+      font-size: small;
+      text-decoration: none;
+    }
+    &:hover {
+        color:blue;
+        font-size: small;
+    }
+    &:active {
+        color:blue;
+        font-size: small;
+        text-decoration: none;
+    }
+}
