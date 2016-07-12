@@ -69,8 +69,7 @@ layout: default
     {% endif %}
     <h1>Collections:</h1>
     <ul id="collections">
-        {{paginator.posts}}
-        {% for post in paginator.posts %}
+        {% for post in site.posts %}
         <li>
             {% if post.datespecial and post.specialcolor and post.specialtitle%}
                 {% assign special = post.datespecial %}
