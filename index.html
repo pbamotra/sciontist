@@ -70,7 +70,7 @@ layout: default
     <ul id="collections">
         {% for post in paginator.posts %}
         {% if post.publish %}
-        <li>
+        <li id=day-{{forloop.index}}>
                 {% if post.datespecial and post.specialcolor and post.specialtitle %}
                     {% assign special = post.datespecial %}
                     {% assign specialcolor = post.specialcolor %}
