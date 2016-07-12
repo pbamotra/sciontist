@@ -1,6 +1,6 @@
 ---
 layout: post
-type: test
+type: testo
 tag: ml
 title: Deep networks with stochastic depth, batch normalization, covariate shift correction
 _url:
