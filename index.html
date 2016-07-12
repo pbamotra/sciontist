@@ -95,7 +95,7 @@ layout: default
                             <a href="{{ p.uri }}" target="_blank">{{ p.title }}</a> {{ heart }} <i class="fa {{ p.type }}" aria-hidden="true"></i><br/>
                         {% endif %}
                     {% endfor %}
-                {% else %}
+                {% elseif post.type == "link" %}
                     {% for p in post._url %}
                         {% if p.heart %}
                             {% assign heart = p.heart %}
@@ -109,7 +109,6 @@ layout: default
                         {% endif %}
                     {% endfor %}
                 {% endif %}
-            {% endif %}
         </li>
         {% endfor %}
     </ul>
