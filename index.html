@@ -69,6 +69,7 @@ layout: default
     <h1>Collections:</h1>
     <ul id="collections">
         {% for post in paginator.posts %}
+        {% if post.publish %}
         <li>
                 {% if post.datespecial and post.specialcolor and post.specialtitle %}
                     {% assign special = post.datespecial %}
@@ -110,6 +111,7 @@ layout: default
                     {% endfor %}
                 {% endif %}
         </li>
+        {% endif %}
         {% endfor %}
     </ul>
     <br/>
