@@ -17,7 +17,7 @@ _url:
     type: fa-external-link
     uri: http://www.pnas.org/content/111/Supplement_3/10796.long
     heart: <span style="color:#19B5FE" title="Fascinating stuff"><i class="fa fa-bolt" aria-hidden="true"></i></span>
-  - title: Altair - declarative statistical <i>viz lib</i> for Python
+  - title: Altair - statistical <i>viz lib</i> for Python
     type: fa-git
     uri: https://github.com/ellisonbg/altair
     heart: <span style="color:red" title="I love it!"><i class="fa fa-heart" aria-hidden="true"></i></span> <span title="Visualisation!"><i class="fa fa-eye" aria-hidden="true"></i></span>
