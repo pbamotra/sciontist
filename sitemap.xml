@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://sciontist.com/</loc>
+  <lastmod>2016-07-13T07:23:38+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://sciontist.com/blog/large-scale-ml-with-sgd?utm_source=sciontist.com&amp;utm_medium=refer&amp;utm_campaign=promote</loc>
+  <lastmod>2016-07-13T07:23:38+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://sciontist.com/page2/</loc>
+  <lastmod>2016-07-13T07:23:38+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://sciontist.com/page3/</loc>
+  <lastmod>2016-07-13T07:23:38+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://sciontist.com/blog/autodesk-women-in-pycon-gevents?utm_source=sciontist.com&amp;utm_medium=refer&amp;utm_campaign=promote</loc>
+  <lastmod>2016-07-13T07:23:38+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://sciontist.com/blog/on-being-a-pythonista?utm_source=sciontist.com&amp;utm_medium=refer&amp;utm_campaign=promote</loc>
+  <lastmod>2016-07-13T07:23:38+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://sciontist.com/blog/learning-ml-quora?utm_source=sciontist.com&amp;utm_medium=refer&amp;utm_campaign=promote</loc>
+  <lastmod>2016-07-13T07:23:38+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://sciontist.com/blog/tags/python</loc>
+  <lastmod>2016-07-13T07:23:38+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://sciontist.com/blog/tags/paper</loc>
+  <lastmod>2016-07-13T07:23:38+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://sciontist.com/blog/tags/ml</loc>
+  <lastmod>2016-07-13T07:23:38+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+</urlset>
