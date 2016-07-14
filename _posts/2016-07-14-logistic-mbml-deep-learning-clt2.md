@@ -20,7 +20,7 @@ _url:
     uri: http://www.jeannicholashould.com/the-theorem-every-data-scientist-should-know-2.html
     heart: <span style="color:red" title="I love it!"><i class="fa fa-heart" aria-hidden="true"></i></span>
 ---
-This post contains links to a detailed and lucid explanation on the inside-out working of logistic regression. There are also tutorials on model-based machine learning which I came across during spring 2016 in my probabilistic graphical models class with Prof. Erix Xing and Prof. Matt Gormley. The links also cover a introductory tutorial on deep learning for image recognition tasks which is borrowed from SciPy US 2016 resources. The final link is continuation of a previous post of CLT. This is a must read. Enjoy.
+This post contains links to a detailed and lucid explanation on the inside-out working of logistic regression. There are also tutorials on model-based machine learning which I came across during spring 2016 in my probabilistic graphical models class with Prof. Erix Xing and Prof. Matt Gormley. The links also cover a introductory tutorial on deep learning for image recognition tasks which is borrowed from the SciPy US 2016 resources. The final link is continuation of a previous post of CLT. This is a must read. Enjoy.
 
 {% for p in page._url %}
 {% if p.heart %}
