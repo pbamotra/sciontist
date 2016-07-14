@@ -1,7 +1,7 @@
 ---
 layout: post
 type: link
-publish: false
+publish: true
 tag: ml, tutorial
 title: Logistic regression, model-based ML, tutorial deep learning, central limit theorem
 _url:
