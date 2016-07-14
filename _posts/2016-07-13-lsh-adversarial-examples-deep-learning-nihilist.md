@@ -2,7 +2,7 @@
 layout: post
 type: link
 publish: true
-tag: ml, tutorial
+tag: ml, tutorial, life
 title: Nearest neighbors, Adversarial examples, lectures on deep learning, guide to meaning
 _url:
   - title: Large scale nearest neighbors using LSH
