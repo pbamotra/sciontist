@@ -87,7 +87,7 @@ promo: ?utm_source=sciontist.com&utm_medium=refer&utm_campaign=promote
 # blogs i like
 blogs:
   - name: Paul Graham blog
-    url: http://www.paulgraham.com/
+    url: http://www.paulgraham.com
     desc: Paul Graham
     twitterhandle: paulg
   - name: koaning.io
@@ -99,13 +99,21 @@ blogs:
     desc: Ferenc Huszár
     twitterhandle: fhuszar
   - name: Regular Geek
-    url: http://regulargeek.com/
+    url: http://regulargeek.com
     desc: Rob Diana
     twitterhandle: robdiana
   - name: Adventures in data land
-    url: http://blog.smola.org/
+    url: http://blog.smola.org
     desc: Alex Smola
     twitterhandle: smolix
+  - name: colah's blog
+    url: http://colah.github.io
+    desc: Christopher Olah
+    twitterhandle: ch402
+  - name: Fast Forward Labs blog
+    url: http://blog.fastforwardlabs.com
+    desc: Fast Forward Labs
+    twitterhandle: FastForwardLabs
 
 
 favsites:
