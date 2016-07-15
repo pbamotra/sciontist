@@ -1,0 +1,32 @@
+---
+layout: default
+show_home: true
+---
+{% include header.html %}
+<!--
+<div class="portfolio">
+    <h1>Projects:</h1>
+    <ul>
+        {% for websites in site.data.websites %}
+        <li>
+            <a href="{{ websites.url }}">{{ websites.name }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+-->
+<div class="blog">
+    <h1 style="padding-bottom: 1em;">Blogs I follow</h1>
+    <ol id="fav-thingy">
+        {% for blog in site.blogs %}
+            <li><a class="no-dec" href="{{blog.url}}" target="_blank">{{blog.name}}</a> - {{blog.desc}} <i class="fa fa-twitter" style="color:#1DA1F2" aria-hidden="true"></i> @<a class="no-dec" href="https://twitter.com/{{blog.twitterhandle}}" target="_blank">{{blog.twitterhandle}}</a></li>
+        {% endfor %}
+    </ol>
+    <hr/>
+    <h1 style="padding-bottom: 1em;">Websites I <span style="color:red" title="I love it!"><i class="fa fa-heart" aria-hidden="true"></i></span></h1>
+    <ol id="fav-thingy">
+        {% for website in site.favsites %}
+            <li><a class="no-dec" href="{{website.url}}" target="_blank">{{website.name}}</a></li>
+        {% endfor %}
+    </ol>
+</div>

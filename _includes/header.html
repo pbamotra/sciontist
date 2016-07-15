@@ -12,6 +12,7 @@
         {% endfor %}
     </ul>
 </div>
+{% if page.url != '/goodies/goodies' %}
 {% assign day = site.time | date: "%a" %}
 {% if day == site.ghostday %}
 <div class="ghost-container">
@@ -77,4 +78,5 @@
   <label for="search-box" style="margin-right:5px"><i class="fa fa-search" aria-hidden="true"></i></label>
   <input id="search-box" type="text" class="search-box" name="query"/>
 </form>
+{% endif %}
 <hr/>

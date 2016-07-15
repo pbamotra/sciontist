@@ -321,6 +321,8 @@ ul.share-buttons li{
 
 .no-dec{
     text-decoration: none;
+    &:hover {text-decoration: none;}
+    &:visited {text-decoration: none;}
 }
 
 .mirror {
@@ -2705,4 +2707,8 @@ ul#collections li {
         font-size: small;
         text-decoration: none;
     }
+}
+
+#fav-thingy {
+    line-height: 1.5em
 }
