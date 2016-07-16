@@ -8,7 +8,7 @@ _url:
   - title: Kalman filters and functional programming
     type: fa-external-link
     uri: http://www.johndcook.com/blog/2016/07/14/kalman-filters-and-functional-programming
-    heart: <span><a class="notes" target="_blank" href="https://www.cl.cam.ac.uk/~rmf25/papers/Understanding%20the%20Basis%20of%20the%20Kalman%20Filter.pdf">$notes_1$</a></span>
+    heart: <span><a class="notes" target="_blank" href="http://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/">$notes_1$</a></span>
   - title: Think with Google
     type: fa-external-link
     uri: https://www.thinkwithgoogle.com/data-gallery/
