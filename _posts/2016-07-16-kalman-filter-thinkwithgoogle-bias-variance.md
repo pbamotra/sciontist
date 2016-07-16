@@ -3,21 +3,20 @@ layout: post
 type: link
 publish: true
 tag: tutorial, tools
-title: Jupyterlab, bitbucket git, tools for thought
+title: Kalman filters, google dataset website
 _url:
-  - title: JupyterLab - computational environment for Jupyter
-    type: fa-git
-    uri: https://github.com/jupyter/jupyterlab
-  - title: Bitbucket - Becoming a git guru
+  - title: Kalman filters and functional programming
     type: fa-external-link
-    uri: https://www.atlassian.com/git/tutorials
-  - title: Tools for thought
+    uri: http://www.johndcook.com/blog/2016/07/14/kalman-filters-and-functional-programming
+  - title: Think with Google
     type: fa-external-link
-    uri: https://acko.net/files/gltalks/toolsforthought
+    uri: https://www.thinkwithgoogle.com/data-gallery/
+  - title: Understanding the Bias-Variance Tradeoff
+    type: fa-external-link
+    uri: http://scott.fortmann-roe.com/docs/BiasVariance.html
     heart: <span style="color:red" title="I love it!"><i class="fa fa-heart" aria-hidden="true"></i></span>
 ---
-Jupyter has launched Jupyter labs which is in-browser computational environment. Looks like a full-fledged code editor to me. Terminal included! There a link to awesome and simple tutorial on git usage by atlassian. Finally there's an extraordinarily beautiful presentation by Steven Wittens on MathBox -
-Tools for Thought Graphical Algebra and Fourier Analysis.
+Rudolf E. Kálmán's Kalman filters are an exciting tool to infers parameters of interest from indirect, inaccurate and uncertain observations. Google launched a portal to access their data! A really good post on Bias-Variance Tradeoff.
 
 {% for p in page._url %}
 {% if p.heart %}
