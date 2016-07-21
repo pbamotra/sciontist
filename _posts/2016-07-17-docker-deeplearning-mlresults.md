@@ -6,16 +6,12 @@ tag: tutorial, tools, ml
 title: Docker, Deep Learning, Are we there yet?
 _url:
   - title: Docker for beginners
-    type: fa-external-link
     uri: http://prakhar.me/docker-curriculum
   - title: Topics Course on Deep Learning
-    type: fa-external-link
     uri: http://joanbruna.github.io/stat212b
   - title: Unsupervised Feature Learning and Deep Learning
-    type: fa-external-link
     uri: http://ufldl.stanford.edu/tutorial/
   - title: Are we there yet?
-    type: fa-external-link
     uri: http://rodrigob.github.io/are_we_there_yet/build/
 ---
 Introduction to dockers and link to Stat212b from UC Berkeley Topics Course on Deep Learning. There's a tutorial to teach the main ideas of Unsupervised Feature Learning and Deep Learning by Stanford University. Finally, there's link to **Are we there yet?**, a crowd sourced list of known result one some of the “major” visual classification, detection, and pose estimation datasets.

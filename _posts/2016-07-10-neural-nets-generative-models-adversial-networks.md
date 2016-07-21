@@ -6,11 +6,9 @@ publish: true
 title: Intro to neural networks, generative models, generative adversial nets
 _url:
   - title: Hacker's guide to Neural Networks
-    type: fa-external-link
     uri: http://karpathy.github.io/neuralnets/
     heart: <span style="color:red" title="I love it!"><i class="fa fa-heart" aria-hidden="true"></i></span>
   - title: Generative Models
-    type: fa-external-link
     uri: https://openai.com/blog/generative-models/
   - title: Generative Adversarial Nets
     type: fa-file-pdf-o

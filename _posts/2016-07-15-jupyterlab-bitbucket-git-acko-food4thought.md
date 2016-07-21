@@ -9,10 +9,8 @@ _url:
     type: fa-git
     uri: https://github.com/jupyter/jupyterlab
   - title: Bitbucket - Becoming a git guru
-    type: fa-external-link
     uri: https://www.atlassian.com/git/tutorials
   - title: Tools for thought
-    type: fa-external-link
     uri: https://acko.net/files/gltalks/toolsforthought
     heart: <span style="color:red" title="I love it!"><i class="fa fa-heart" aria-hidden="true"></i></span>
 ---

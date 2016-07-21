@@ -6,17 +6,14 @@ tag: ml, tutorial
 title: Logistic regression, model-based ML, tutorial deep learning, central limit theorem
 _url:
   - title: Statistical interpretation of logit regression
-    type: fa-external-link
     uri: https://ayearofai.com/rohan-6-follow-up-statistical-interpretation-of-logistic-regression-e78de3b4d938#.173dkkbrv
     heart: <span><a class="notes" target="_blank" href="http://karlrosaen.com/ml/notebooks/logistic-regression-why-sigmoid/">$notes_1$</a></span>
   - title: An Introduction to model-based machine learning
-    type: fa-external-link
     uri: https://blog.dominodatalab.com/an-introduction-to-model-based-machine-learning/
   - title: Introduction to deep learning for image recognition
     type: fa-git
     uri: https://github.com/rouseguy/scipyUS2016_dl-image
   - title: Central Limit Theorem - Part 2
-    type: fa-external-link
     uri: http://www.jeannicholashould.com/the-theorem-every-data-scientist-should-know-2.html
     heart: <span style="color:red" title="I love it!"><i class="fa fa-heart" aria-hidden="true"></i></span>
 ---

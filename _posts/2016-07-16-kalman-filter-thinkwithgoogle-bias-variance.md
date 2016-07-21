@@ -6,14 +6,11 @@ tag: tutorial, tools
 title: Kalman filters, google dataset website
 _url:
   - title: Kalman filters and functional programming
-    type: fa-external-link
     uri: http://www.johndcook.com/blog/2016/07/14/kalman-filters-and-functional-programming
     heart: <span><a class="notes" target="_blank" href="http://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/">$notes_1$</a></span>
   - title: Think with Google
-    type: fa-external-link
     uri: https://www.thinkwithgoogle.com/data-gallery/
   - title: Understanding the Bias-Variance Tradeoff
-    type: fa-external-link
     uri: http://scott.fortmann-roe.com/docs/BiasVariance.html
     heart: <span style="color:red" title="I love it!"><i class="fa fa-heart" aria-hidden="true"></i></span>
 ---

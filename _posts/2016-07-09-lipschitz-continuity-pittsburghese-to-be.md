@@ -10,7 +10,6 @@ _url:
     uri: http://www.springer.com/cda/content/document/cda_downloaddocument/9783540008903-c1.pdf
     heart: <span style="color:#f9a825" title="Simple and Best!"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></span>
   - title: Pittsburghese - To be, or not to be
-    type: fa-external-link
     uri: http://theglassblock.com/2016/07/07/pittsburghese-expertise-dropping-to-be/
     heart: <span style="color:red" title="I love it!"><i class="fa fa-heart" aria-hidden="true"></i></span>
   - title: Apollo 11 guidance computer source code

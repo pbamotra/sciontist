@@ -14,7 +14,6 @@ _url:
     uri: http://arxiv.org/pdf/1502.03167v3.pdf
     heart: <span><a class="notes" target="_blank" href="https://gab41.lab41.org/batch-normalization-what-the-hey-d480039a9e3b">$notes_1$</a>&nbsp;<a class="notes" target="_blank" href="http://blog.smola.org/post/4110255196/real-simple-covariate-shift-correction">$notes_2$</a></span>
   - title: Friendship and natural selection
-    type: fa-external-link
     uri: http://www.pnas.org/content/111/Supplement_3/10796.long
     heart: <span style="color:#19B5FE" title="Fascinating stuff"><i class="fa fa-bolt" aria-hidden="true"></i></span>
   - title: Altair - statistical <i>viz lib</i> for Python
