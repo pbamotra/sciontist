@@ -2,20 +2,22 @@
 layout: post
 type: link
 publish: true
-tag: ml
-title: Tips for training deep networks, Big-n problems, Four burners
+tag: ml, python, tutorial
+title: Python 3, Layer Normalization, CNN, InfoGAN
 _url:
-  - title: Practical tips for training deep networks
-    uri: http://arxiv.org/pdf/1206.5533v1.pdf
+  - title: Python 3 for Scientists
+    uri: http://python-3-for-scientists.readthedocs.io/en/latest/
+  - title: Layer Normalization
+    uri: http://arxiv.org/pdf/1607.06450.pdf
     type: fa-file-pdf-o
-  - title: Notes on Big-n Problems
-    uri: https://www.cs.ubc.ca/~schmidtm/Documents/2012_Notes_BigN.pdf
-    type: fa-file-pdf-o
-  - title: The Four Burners Theory
-    uri: http://jamesclear.com/four-burners-theory
+  - title: A Beginner's Guide To Understanding CNNs
+    uri: https://adeshpande3.github.io/adeshpande3.github.io/A-Beginner's-Guide-To-Understanding-Convolutional-Neural-Networks/
     heart: <span style="color:red" title="I love it!"><i class="fa fa-heart" aria-hidden="true"></i></span>
+  - title: InfoGAN - Representation Learning in GANs
+    uri: https://arxiv.org/pdf/1606.03657v1.pdf
+    type: fa-file-pdf-o
 ---
-Paper by Yoshua Bengio on Practical Recommendations for Gradient-Based Training of Deep Architectures. There's link to Mark Schmidt excellent notes on  on Big-n Problems which serves a good background to optimization problems around us. Finally, there's a link to thought-provoking article on Work-Life Balance by James Clear.
+
 
 {% for p in page._url %}
 {% if p.heart %}
