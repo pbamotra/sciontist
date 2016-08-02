@@ -9,7 +9,7 @@ _url:
     uri: https://arxiv.org/pdf/1601.01705v4.pdf
   - title: How to Make Mistakes in Python
     uri: http://www.oreilly.com/programming/free/files/how-to-make-mistakes-in-python.pdf
-    heart: <span title="Python Love"><i class="icon-python" style="font-size: larger;"></i></span>
+    heart: <span title="Python Love" style="font-size:larger"><i class="icon-python"></i></span>
   - title: The Most Dangerous Equation
     uri: http://press.princeton.edu/chapters/s8863.pdf
     heart: <span style="color:#19B5FE" title="Fascinating stuff"><i class="fa fa-bolt" aria-hidden="true"></i></span>
