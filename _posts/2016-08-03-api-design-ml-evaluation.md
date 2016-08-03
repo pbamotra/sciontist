@@ -12,8 +12,11 @@ _url:
   - title: Evaluating Machine Learning Models
     uri: http://www.oreilly.com/data/free/files/evaluating-machine-learning-models.pdf
     type: fa-file-pdf-o
+  - title: Design Patterns Reference Card
+    uri: http://www.mcdonaldland.info/files/designpatterns/designpatternscard.pdf
+    type: fa-file-pdf-o
 ---
-API Design, methods to evaluate machine leaning (ML) models.
+API Design, methods to evaluate machine leaning (ML) models, and Design Patterns Reference Card.
 
 {% for p in page._url %}
 {% if p.heart %}
