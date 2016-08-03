@@ -7,9 +7,13 @@ title: API design
 _url:
   - title: The Little Manual of API Design
     uri: http://www4.in.tum.de/~blanchet/api-design.pdf
+    type: fa-file-pdf-o
     heart: <span style="color:red" title="I love it!"><i class="fa fa-heart" aria-hidden="true"></i></span>
+  - title: Evaluating Machine Learning Models
+    uri: http://www.oreilly.com/data/free/files/evaluating-machine-learning-models.pdf
+    type: fa-file-pdf-o
 ---
-API Design
+API Design, methods to evaluate machine leaning (ML) models.
 
 {% for p in page._url %}
 {% if p.heart %}
