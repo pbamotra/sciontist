@@ -7,8 +7,10 @@ title: Neural networks, Python
 _url:
   - title: Composing Neural Networks for Question Answering
     uri: https://arxiv.org/pdf/1601.01705v4.pdf
+    type: fa-file-pdf-o
   - title: How to Make Mistakes in Python
     uri: http://www.oreilly.com/programming/free/files/how-to-make-mistakes-in-python.pdf
+    type: fa-file-pdf-o
     heart: <span title="Python Love" style="font-size:larger"><i class="icon-python"></i></span>
   - title: The Most Dangerous Equation
     uri: http://press.princeton.edu/chapters/s8863.pdf
