@@ -16,56 +16,6 @@ layout: default
 </div>
 -->
 <div class="blog">
-    {% assign day = site.time | date: "%a" %}
-    {% assign mod = paginator.total_posts | modulo:site.nmod %}
-    {% if mod == site.mod_switch %}
-    {% if page.url == '/' and day != site.ghostday %}
-    <h1><span style="color:#f26522"><i class="fa fa-hacker-news" aria-hidden="true"></i></span> stories:</h1>
-    <ul id="hn"></ul>
-    <script type="text/javascript">
-    var url = "https://hacker-news.firebaseio.com/v0/newstories.json";
-    var item_url = "https://hacker-news.firebaseio.com/v0/item/";
-        $.ajax({
-          url: url,
-          method: 'GET',
-      }).done(function(results) {
-          results = _.sample(results, {{site.hnn}});
-          disp = 0;
-          $.each(results, function(index, result) {
-             $.ajax({
-                url: item_url + result + '.json',
-                method: 'GET',
-              }).done(function(result) {
-                  if (result.title.length < {{ site.hnlength}} &&
-                      result.type=='story' &&
-                      result.title.indexOf('Ask') != 0 &&
-                      typeof result.url != 'undefined') {
-
-                      disp += 1;
-                      $('ul#hn').append('<li>' + '<a href="' + result.url + '" target="_blank">' + result.title + '</a></li>');
-                  }
-                  if (index == results.length - 1 && disp < 1) {
-                      $('ul#hn').append('<li>' + 'Refresh <a href="/" onclick="location.reload()"> <i class="fa fa-refresh" aria-hidden="true"></i></a> for more stories.' + '</li>');
-                  }
-              }).fail(function(err) {
-                throw err;
-              });
-          });
-        }).fail(function(err) {
-          throw err;
-        });
-    </script>
-    <hr/>
-    {% endif %}
-    {% else %}
-    <h1><i class="fa fa-bullseye" aria-hidden="true"></i>n Pursuit:</h1>
-    <ul id="pursuit">
-        {% for pursuit in site.pursuits %}
-            <li><a href="{{pursuit.uri}}{{site.promo}}" class="no-dec" target="_blank">{{pursuit.title}}</a> <span style="color:#{{pursuit.color}}"><i class="fa {{pursuit.statusicon}}" aria-hidden="true"></i></span></li>
-        {% endfor %}
-    </ul>
-    <hr/>
-    {% endif %}
     <h1>Collections:</h1>
     <ul id="collections">
         {% for post in paginator.posts %}
